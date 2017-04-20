@@ -32,7 +32,7 @@ def request_NewsInfo(university):
     for i in range(0,200,20):
         url=base_url.format(school=university["chn_name"],number=i)
         print "开始请求: " + url
-        time.sleep(3)
+        time.sleep(2)
         try:
             request=urllib2.Request(url,headers=headers)
             html=urllib2.urlopen(request).read()
@@ -53,8 +53,8 @@ def request_NewsInfo(university):
                 try:
                     html = urllib2.urlopen(href, timeout=5).read()
                     parseHTMLResult = process_BodyText(html)
-                    print "正文处理完毕"
-                    print parseHTMLResult["title"]
+                    #print "正文处理完毕"
+                    #print parseHTMLResult["title"]
                     Uname = university["chn_name"]
                     abbr = university["en_name"]
                     document = {"Uname":Uname,"abbr":abbr,"title": parseHTMLResult["title"], "url": href, "date": date, "body":parseHTMLResult["body"]}
@@ -100,8 +100,19 @@ def main():
     conn = MongoClient(MongoDB_Host,int(MongoDB_Port))
     RawPOA = conn.RawPOA
 
+    #计数器
+    count = 0
 
-    newsCollection = request_NewsInfo(UniversityList[0])
-    save_DataToDB(newsCollection,RawPOA);
+    for uni in UniversityList:
+        count += 1
+        print "开始爬取第"+str(count)+"个学校数据,还有"+str(len(UniversityList)-count)+"个学校爬取"
+
+        newsCollection = request_NewsInfo(uni)
+        save_DataToDB(newsCollection, RawPOA)
+        print uni["chn_name"] + "的新闻爬取完毕。共"+str(len(newsCollection))+"条信息数据\n"
+
+    print "所有学校数据爬取完毕"
+
+
 
 main()
