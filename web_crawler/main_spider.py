@@ -10,9 +10,6 @@ import mod_config
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
 
-#设置默认编码为utf-8
-reload(sys)
-sys.setdefaultencoding( "utf-8" )
 
 
 # 请求新闻站点。输入为包含大学中英文名称的Dict。
@@ -53,8 +50,6 @@ def request_NewsInfo(university):
                 try:
                     html = urllib2.urlopen(href, timeout=5).read()
                     parseHTMLResult = process_BodyText(html)
-                    #print "正文处理完毕"
-                    #print parseHTMLResult["title"]
                     Uname = university["chn_name"]
                     abbr = university["en_name"]
                     document = {"Uname":Uname,"abbr":abbr,"title": parseHTMLResult["title"], "url": href, "date": date, "body":parseHTMLResult["body"]}
@@ -66,7 +61,7 @@ def request_NewsInfo(university):
         except urllib2.HTTPError,e:
             print e.reason
 
-    return response_result;
+    return response_result
 
 
 # 过滤一些无效的新闻数据
@@ -75,7 +70,7 @@ def filter(doc):
     if doc["body"] == "error":
         return "false"
 
-    if len(doc["body"]) <= 30:
+    if len(doc["body"]) <= 50:
         return "false"
 
     return "true"
@@ -116,16 +111,41 @@ def main():
     #计数器
     count = 0
 
-    for x in range(4,20):
+    for uni in UniversityList:
         count += 1
         print "开始爬取第"+str(count)+"个学校数据,还有"+str(len(UniversityList)-count)+"个学校爬取"
 
-        newsCollection = request_NewsInfo(UniversityList[x])
+        newsCollection = request_NewsInfo(uni)
         save_DataToDB(newsCollection, RawPOA)
-        print UniversityList[x]["chn_name"] + "的新闻爬取完毕。共"+str(len(newsCollection))+"条信息数据\n"
+        print uni["chn_name"] + "的新闻爬取完毕。共"+str(len(newsCollection))+"条信息数据\n"
 
     print "所有学校数据爬取完毕"
 
 
 
-main()
+def s():
+    # 获得配置文件参数
+    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    UniversityList = mod_config.get_University_list()
+
+    #建立数据库连接
+    conn = MongoClient(MongoDB_Host,int(MongoDB_Port))
+    RawPOA = conn.RawPOA
+
+    #计数器
+    count = 0
+
+    for i in range(17,20):
+        count += 1
+        print "开始爬取第" + str(count) + "个学校数据,还有" + str(3 - count) + "个学校爬取"
+
+        newsCollection = request_NewsInfo(UniversityList[i])
+        save_DataToDB(newsCollection, RawPOA)
+        print UniversityList[i]["chn_name"] + "的新闻爬取完毕。共" + str(len(newsCollection)) + "条信息数据\n"
+
+    print "所有学校数据爬取完毕"
+
+#main()
+
+s()
