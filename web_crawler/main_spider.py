@@ -58,7 +58,8 @@ def request_NewsInfo(university):
                     Uname = university["chn_name"]
                     abbr = university["en_name"]
                     document = {"Uname":Uname,"abbr":abbr,"title": parseHTMLResult["title"], "url": href, "date": date, "body":parseHTMLResult["body"]}
-                    response_result.append(document)
+                    if filter(document) == "true":
+                        response_result.append(document)
                 except Exception, e:
                     print e
 
@@ -66,6 +67,18 @@ def request_NewsInfo(university):
             print e.reason
 
     return response_result;
+
+
+# 过滤一些无效的新闻数据
+def filter(doc):
+
+    if doc["body"] == "error":
+        return "false"
+
+    if len(doc["body"]) <= 30:
+        return "false"
+
+    return "true"
 
 
 # 处理不同来源新闻页面的HTML正文函数。 输入参数:页面HTML代码。
@@ -103,13 +116,13 @@ def main():
     #计数器
     count = 0
 
-    for uni in UniversityList:
+    for x in range(4,20):
         count += 1
         print "开始爬取第"+str(count)+"个学校数据,还有"+str(len(UniversityList)-count)+"个学校爬取"
 
-        newsCollection = request_NewsInfo(uni)
+        newsCollection = request_NewsInfo(UniversityList[x])
         save_DataToDB(newsCollection, RawPOA)
-        print uni["chn_name"] + "的新闻爬取完毕。共"+str(len(newsCollection))+"条信息数据\n"
+        print UniversityList[x]["chn_name"] + "的新闻爬取完毕。共"+str(len(newsCollection))+"条信息数据\n"
 
     print "所有学校数据爬取完毕"
 
