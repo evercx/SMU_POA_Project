@@ -115,3 +115,22 @@ def get_University_list():
                     "en_name": "sues"
                 }
             ]
+
+
+
+def get_ModelType_Info():
+
+    return {
+
+        "sentiment":{
+            "categories": ["-1", "0", "1"],
+            "load_Files_Path": './sentiment_seg_data/',
+            "save_model_Path": './models/sentiment_model.m'
+        },
+
+        "classification":{
+            "categories": ["activity", "entrance", "social","study"],
+            "load_Files_Path": './classification_seg_data/',
+            "save_model_Path": './models/classification_model.m'
+        },
+    }
