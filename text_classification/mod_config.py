@@ -125,12 +125,16 @@ def get_ModelType_Info():
         "sentiment":{
             "categories": ["-1", "0", "1"],
             "load_Files_Path": './sentiment_seg_data/',
-            "save_model_Path": './models/sentiment_model.m'
+            "save_model_Path": './models/sentiment_model.m',
+            "count_vect_Path": './wordbag/sentiment_count_vect.dat',
+            "tfidf_Path": './wordbag/sentiment_tfidf.dat'
         },
 
         "classification":{
             "categories": ["activity", "entrance", "social","study"],
             "load_Files_Path": './classification_seg_data/',
-            "save_model_Path": './models/classification_model.m'
+            "save_model_Path": './models/classification_model.m',
+            "count_vect_Path": './wordbag/classification_count_vect.dat',
+            "tfidf_Path": './wordbag/classification_tfidf.dat'
         },
     }

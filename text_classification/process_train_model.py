@@ -5,6 +5,7 @@ from sklearn.datasets import load_files
 from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.externals import joblib
+import  cPickle as pickle
 import mod_config
 
 def readFile(path):
@@ -14,6 +15,16 @@ def readFile(path):
     f.close()
     return content
 
+
+
+
+def writeBunchObj(path,bunchobj):
+
+    file_Obj = open(path,"wb")
+    pickle.dump(bunchobj,file_Obj)
+    file_Obj.close()
+
+
 def get_dataBunch(typeDict):
 
 
@@ -21,9 +32,7 @@ def get_dataBunch(typeDict):
     return train_data
 
 
-
-
-def extract_tfidf(train_data):
+def extract_tfidf(train_data,typeDict):
 
     #词语计数
 
@@ -39,6 +48,9 @@ def extract_tfidf(train_data):
     tfidf_transformer = TfidfTransformer()
     X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 
+    writeBunchObj(typeDict["count_vect_Path"], count_vect)
+    writeBunchObj(typeDict["tfidf_Path"], tfidf_transformer)
+
     return X_train_tfidf
 
 
@@ -53,10 +65,11 @@ def train_sentiment_model(X_train_tfidf,train_data):
 
 def main():
 
+    #typeDict = mod_config.get_ModelType_Info()["sentiment"]
     typeDict = mod_config.get_ModelType_Info()["classification"]
 
     train_data = get_dataBunch(typeDict)
-    X_train_tfidf = extract_tfidf(train_data)
+    X_train_tfidf = extract_tfidf(train_data,typeDict)
 
     clf = train_sentiment_model(X_train_tfidf,train_data)
 
