@@ -46,4 +46,47 @@ def create_TrainData():
                 if f:
                     f.close()
 
-create_TrainData()
+# create_TrainData()
+
+def copy_Data_from_Raw_to_Result():
+
+    # 获得配置文件参数
+    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    UniversityList = mod_config.get_University_list()
+
+    #建立数据库连接
+    conn = MongoClient(MongoDB_Host,int(MongoDB_Port))
+    RawPOA = conn.RawPOA
+    ResultPOA = conn.ResultPOA
+
+    CopyList = []
+    tempDict = {}
+
+    for iterm in RawPOA["news"].find():
+
+        tempDict = iterm
+        tempDict["classification"] = "undefined"
+        tempDict["sentiment"] = "99"
+        CopyList.append(tempDict)
+        print tempDict
+
+    ResultPOA["news"].insert(CopyList)
+    print "复制成功"
+
+#copy_Data_from_Raw_to_Result()
+
+def insert_university_list():
+    # 获得配置文件参数
+    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    UniversityList = mod_config.get_University_list()
+
+    #建立数据库连接
+    conn = MongoClient(MongoDB_Host,int(MongoDB_Port))
+    ResultPOA = conn.ResultPOA
+
+    ResultPOA["universitylist"].insert(UniversityList)
+    print "插入成功"
+
+#insert_university_list()

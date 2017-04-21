@@ -1,7 +1,875 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6172bce-c5df-42e4-904f-42910ef81614" name="Default" comment="" />
+    <list default="true" id="f6172bce-c5df-42e4-904f-42910ef81614" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/text_classification/models/classification_model.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/28岁乔任梁上海意外死亡 乔任梁死亡真相揭秘竟是这样 - 热点资讯 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/Rain和宋茜主演《八月未央》华东政法大学拍戏 疑似殴打学生.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上戏女生“失踪”3个月至今未归，警方找了这么久，为何说：这事还不能立案_新浪新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海外国语大学垃圾长期无人清理 废弃桌椅堆成山_新浪上海_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海工程技术大学一男子死亡_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海工程技术大学一男生在宿舍内死亡 现警方已介入调查_楚秀网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海海事大学情杀案还原：嫌犯屡换QQ签名曝心态 - 新闻快讯 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海海事大学情杀案还原：嫌犯屡换QQ签名曝心态，无人关注_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海海事大学研二男生向前女友泼腐蚀物质并用刀将其刺死_新浪法院频道_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海热线HOT新闻——上海理工大学一男子坠楼身亡.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海理工大学对外宣称田径场收费 是否该收费引争议-闽南网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海理工大学操场对外收费 每小时15元引不满_视频_环球网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海理工大学操场对外收费 每小时15元引居民不满_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海理工大学操场对外收费引不满 校方：为加强管理_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海理工田径场收费引争议 高校运动场所开放有苦衷_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海理工田径场每小时15元限流引热议，高校体育场馆对外收费已非新闻--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海电机学院一男生偷拍女浴室未遂：一时冲动_新闻_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海电机学院教务处处长借开会之机公款旅游 - 乌海网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海音乐学院零陵路校区工地塔吊倾覆 幸运的是并无人员伤亡(2)_楚秀网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/上海音乐学院零陵路校区工地塔吊倾覆 无人伤亡_中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/东华大学原副校长江建明接受组织调查 - 打虎拍蝇 - 廉政频道 - 鲁网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/东华大学原副校长江建明涉嫌严重违纪被调查_凤凰财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/华东理工大学研究生因爆炸死在导师工厂 导师被判2年缓刑3年_新浪财经_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/华东理工研究生命丧导师工厂 导师被判2年缓刑3年 - 滚动热点 - 21CN.COM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/沪牌拍卖手续费纠纷案宣判 华政学子诉请被驳回-新闻频道-和讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/泼酸捅杀前女友 上海海事大学研究生当庭求判死刑 - 21CN手机网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/清华2名学生落水 证实溺亡者为复旦大学学生_新闻频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/清华校园内2名复旦大学学生凌晨落水 1人溺亡_新闻频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/相爱相杀！上海海事大学男生因恋爱纠纷 怒杀前女友先泼酸再用刀捅_武进新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/研究生命丧导师的工厂，华东理工大学教师张建雨为何被判缓刑--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/组图：上海海事大学研究生“直播”杀女友 已被警方批准逮捕-新闻频道-和讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/组图：上海理工大学一男子坠楼身亡 医护人员和救护车到场-新闻频道-和讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/-1/高校男生偷拍女生洗澡被抓：告诉警察一时冲动-搜狐新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2010上海海洋大学授予成人学位实施细则 ―外语频道―教育优选―最权威的国际教育服务平台.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2015上海电机学院录取分数线_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2015年上海电机学院新增专业名单_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海中医药大学分省录取分数线（持续更新）--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海对外经贸大学分省录取分数线（持续更新）--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海对外经贸大学高考录取查询_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海工程技术大学高等职业技术学院、上海市高级技工学校招聘公告【招38人】_中公网校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海工程技术大学高考录取查询_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海海事大学招聘学院院长、副院长公告上海教师招聘网_免费提供2016-2017年教师招聘信息_教师人才招聘首选-教育信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海海事大学高考录取查询_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海海洋大学高考录取查询_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海音乐学院分省录取分数线（持续更新）--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016上海音乐学院国际打击乐节将举行.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016华东政法大学分省录取分数线（持续更新）--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016华东政法大学高考录取查询_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016年“政协委员与大学生面对面”活动在上海师范大学举行.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016年上海市研究生学术论坛在上海对外经贸大学举行--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016年上海海洋大学录取分数线_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016年东华大学毕业生就业质量报告_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2016年华东理工大学毕业生就业质量报告_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海交通大学国际与公共事务学院招聘3人公告上海教师招聘网_免费提供2017年教师招聘信息_教师人才招聘首选-教育信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海交通大学教育集团干部教育学院在职研究生招生简章_中公网校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海华东政法大学管理教辅辅导员招聘22人公告上海教师招聘网_免费提供2017年教师招聘信息_教师人才招聘首选-教育信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海同济大学空间信息科学及可持续发展应用中心“青年千人计划”招聘公告_中公网校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海复旦大学附属金山医院招聘6人公告公告【招6人】_中公网校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海大学高校专项计划暨启航计划招生简章-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海对外经贸大学招聘155人公告上海教师招聘网_免费提供2017年教师招聘信息_教师人才招聘首选-教育信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海市本科高校专业（类）选考科目：上海电机学院_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海戏剧学院附属戏曲学校招聘11人公告上海教师招聘网_免费提供2017年教师招聘信息_教师人才招聘首选-教育信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海海洋大学和中国水产科学研究院联合培养研究生招生复试安排（第一批）_中公网校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海海洋大学招聘公告（第1批）上海教师招聘网_免费提供2017年教师招聘信息_教师人才招聘首选-教育信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海理工大学招聘公告【招29人】_中公网校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海财经大学MBA成绩查询系统开放注册-闽南网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017上海音乐学院校考招生计划招生简章-教育-栏目-忠县忠州新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017华东理工大学基本科研业务费青年教师探索研究基金申报通知(理工科).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017华东理工大学澳大利亚堪培拉大学MBA-张家界新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年3月8日南方航空公司乘务安全员招聘复试结果及试装环节通知（上海师范大学）_中公网校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年6月上海师范大学英语四级口语报名时间-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年6月上海海洋大学院英语四级报名时间公布_2017年6月上海海洋大学院英语四级报名时间_金陵热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年上海大学附属学校小升初特长生名单_上海奥数网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年上海师范大学凝聚态物理硕士研究生招生调剂信息-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年上海师范大学第三附属实验学校开放日通知_上海奥数网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年上海理工大学MEM招生简章 - MEM招生信息 - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年东华大学教职工体检服务采购项目公开招标公告.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年全国研招会（广东场）参会学校：上海中医药大学 --广东分站--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年全国研招会（广东场）参会学校：上海理工大学 --广东分站--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年华东政法大学双证公共管理硕士（MPA）复试安排 - MPA复试 - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年华东理工大学附中校园开放日活动安排通知_上海奥数网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017年同济大学金融硕士招生信息 - MF - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/2017考研复试线最新公布消息，上海大学复试线已出_合肥网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/21世纪人才网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/COREWISE助力上海师范大学以及北京师范大学珠海分校学生考勤系统 _RFID世界网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/MBA活动｜5月17日华理将举办“知行合一”讲坛：成功之路 改善先行 - 活动 - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/WCA2016秋季公开课上海海洋大学站今日火爆开课-91手游网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/“大哉孔子--圣像 圣迹图展”在台湾东华大学开展.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/“神秘的”复旦中华古籍保护研究院两年干了些啥？_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/《上海师范大学图书馆民国文献珍本图录》首发_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/《人民的名义》有汉大帮 私募界有北大帮复旦帮_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/《人民的名义》汉东大学 最可能是哪所高校_大燕网北京站_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/《八月未央》华政取景变斗殴，十大高校取景地都有哪？-虎嗅网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/《微微一笑很倾城》取景地曝光 华东政法大学--湖北频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/《微微一笑很倾城》幕后故事：取景在上海华东政法大学 杨洋带病拍戏_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/《桌球先生》番外篇六：专访上海理工大学台球社（上）-乐视体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/【FX168峰会现场访谈】特朗普上台或令原油价格走高——上海对外经贸大学战略性大宗商品研究院副院长仰炬教授.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/【体总独家】2017年上海交通大学“校庆杯”圆满开幕-搜狐体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/【就业】想进高校工作吗？华政、上师大招聘291名工作人员_国内新闻_环球网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/【招标采购】上海对外经贸大学古北校区室内LED显示屏采购项目招标公告-室内LED显示屏,LED显示屏采购,LED显示屏招标-LED屏行业-hc360慧聪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/【调剂】上海海事大学2017年硕士生调剂问答_复试调剂_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/【调研】研究生学长学姐们，有个问卷想让你们做一下～-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/一图看懂华东师范大学“十三五”发展规划纲要_中国大学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/一年一场10月7日 上外MBA2017级招生政策发布会_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上外2016届就业质量报告：70%应届生月薪超5000元_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上外、华理、上财2017自主招生简章今天公布_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上师大附二外国际高中，连图书馆都能如此这么高大上_江西频道_凤凰网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上戏名师：10个艺考考生9个上过培训班 存整容情况_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上戏教师：10个考生9个上过培训班 存在整容情况_新闻_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上汽集团来上海工程技术大学举办专场招聘会_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海7月23日MBA教育展：上海对外经贸大学MBA项目解读_上外贸MBA 上海对外经贸大学 2017MBA招生_博思网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学2015年艺术特长生招生简章（二）_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学2016年招生章程-招生章程.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学2016年第一批进口设备项目国际公开招标采购中标公告 - 中国教育装备网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学2017年保送生招生简章_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学2017年博士研究生招生专业目录发布_考博_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学2017年度中文纸质期刊采购项目公开招标公告_首页标讯_招标公告-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学2017年招收攻读硕士学位研究生章程-考研-中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学3个专业获批设立_医药_民主与法制网  国家一类新闻网站.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学3幢学生公寓房屋安全性检测竞争性磋商_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学图书馆风冷热泵空调系统采购及安装招标公告-风冷热泵,招标,中央空调-空调制冷行业-hc360慧聪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学康复医学院院长王拥军接受专访--人民电视--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学录取分数线_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学教授陈凯先发言-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学新增三个本科专业 两专业属国内首次建立_中国大学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学普通高中学生综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学校长徐建光作报告 - 新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海中医药大学消防维保服务招标项目的公开招标公告.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海之春国际音乐节开幕在即 上音将推35部新作 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海交通大学-中国汽车后市场连锁&amp;互联网EMBA高级总裁班-魔方学院,汽车后市场,连锁-汽车用品行业-hc360慧聪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海交通大学2017年“思源计划”招生简章 ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海交通大学《中国CEO国际财富管理高级研修班》_全球热门财经报道_www.gold678.com.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海交通大学高分辨飞行时间质谱仪采购中标公告 - 中国教育装备网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海华东理工大学自考报名-太原新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海同济黄浦设计创意中学正式对外招生 首届招60人_新浪上海_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海国际招标有限公司关于上海海洋大学食品学院实训基地项目深化设计（SITC项目编号：15102956）的竞争性谈判公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海外国语大学 TUFC世界名校留学项目招生简章 _高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海外国语大学2017年保送生招生简章 ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海外国语大学2017自主招生网上报名入口_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海外国语大学国际金融贸易学院院长·章玉贵： _ 经济参考网 _ 新华社《经济参考报》官方网站.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海外国语大学海外合作学院2017国际本科留学项目招生简章 _高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海外国语大学研究生招生简章-中国教育在线研究生招生报名查询系统.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海外国语大学自主招生考试模式？_金陵热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学2017年自主招生报名时间及入口_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学2017年自主招生报考费用是多少？_金陵热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学2017年自主招生计划数20人 ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学2017年高水平运动队招生简章.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学2017自主招生笔试时间：6月11日_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学商科教育获全球权威MBA国际认证 - 商学院资讯 - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学本科招生网艺术类校考成绩查询-教育-栏目-忠县忠州新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学校长金东寒：退出专利申请补贴政策_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学艺考开考 姚晨当明星考官秀工作证_娱乐频道_中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学艺考开考 姚晨扎马尾穿裸色大衣干练现身特别适合考官_楚秀网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海大学艺考开考 姚晨穿裸色大衣现身做考官__中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2016年上海市本科招生特长生自荐实施办法-招生快讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2016年接受同等学力硕士申请专业名单 --同等学力申硕--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2016年考研初试成绩：2月16日_新闻频道_中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2016年高考录取分数线_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2016考研成绩查询入口开通-考研-中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2017外语类保送生招生简章_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2017年招收推荐免试硕士研究生章程_研招简章_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学2017考研专业目录及参考书目-新东方网_第4页.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学MPAcc招生咨询常见问题解答 - MPAcc招生信息 - MPAcc中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学与黄浦区人民法院合作签约.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学分会举行换届大会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学古北校区LED显示屏采购项目公开招标公告 - LED大屏网LED显示屏新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学学生社区2016年高清技防设施改造项目的成交公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学春季高考测试重点考察英语能力_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学普通高中学生综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学留学预科2015年招生简章_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海对外经贸大学百余位外国留学生来鹰观光--江西频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学2016年专科自主招生专业计划表 ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学2016年招生章程 _高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学2016年预计招收艺术类本科生470名-千龙网·中国首都网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学2016年预计招收艺术类本科生470名.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学2016年高考录取分数线(31省市汇总)_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学2016考研成绩查询入口开通-考研-中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学学生留学找谁办理靠谱 - 教育咨询 - 留学360.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学松江校区二楼餐厅经营服务更正公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海工程技术大学校花叶梓萱 天使脸蛋魔鬼身材（图）_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海市慈善教育培训中心举行东华大学第一届创业教育培训班结业典礼.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海市政府采购中心第2016-11015号信息--上海对外经贸大学制冷空调设备(第三次）_首页标讯_招标公告-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海市赵朴初研究会换届大会3月25日举行——人民政协网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海师范大学2017年博士研究生招生专业目录发布_考博_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海师范大学2017校考考试时间成绩查询时间分数-教育-栏目-忠县忠州新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海师范大学奉贤校区新建生物科技楼、综合实验楼项目桩基检测及基坑监测公开招标公告_首页标讯_招标公告-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海师范大学普通高中学生综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海师范大学本科高端互动教室建设采购项目询价公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海戏剧学院04级表演系本科明星班班现状 江疏影最火_娱乐频道_凤凰网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海戏剧学院04级表演系本科明星班班现状 江疏影陈赫最火（组图）--福建频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海戏剧学院_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海戏剧学院表演系重庆辣妹：只有申花能代表上海-搜狐体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海民进.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学2017年拟招143名教师_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学2017年考研调剂系统：2月24日开启_考研_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学2018年MBA招生简章 - MBA招生信息 - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学_神州学人.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学临港校区建筑物不动产证和不动产登记证明办理项目更正公告_首页标讯_变更通知-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学哪些专业好？上海海事大学前十专业排名 南国置业或(2) - 南方财富网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学就业前景及薪酬增长趋势_上海海事大学就业前景及薪酬增长趋势_金陵热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学普通高中学生综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海事大学机器学习软件的公开招标公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学2015年硕士研究生报考须知_考研频道_中国教育新闻网-www.jyb.cn 记录教育每一天!.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学2017年公共管理硕士（MPA）接收考研调剂的通知-闽南网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学2017年硕士研究生招生导师_考研_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学2017考研初试查分入口及方式-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学举办“2017 FVCOM学术研讨暨用户大会”_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学委员会赴嘉定参观学习.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学室内篮球馆运动地板更换工程的澄清公告_首页标讯_变更通知-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学开发“全国河蟹大赛评比软件系统”-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学普通高中综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学王成辉教授一行赴江苏省淡水所河蟹新品种繁育（如东）基地参观交流（图）_行业资讯_海产资讯_中国海洋食品网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学设立海洋科学研究院_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学赵金良教授来扬考察鳜鱼苗种基地 - 扬州市农业委员会 - 中国扬州门户网站群.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学：全球变暖不会增加雾霾发生率—新闻—科学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海海洋大学：首艘远洋渔业资源调查船下水--宁夏频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海热线HOT新闻——上海大学中最累最忙10大专业，看到TOP2忍不住哭了.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海热线娱乐频道——华师大阅读主题日 这张高校周边书店地图亮了.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海热线教育频道——《微微一笑很倾城》在上海松江大学城华东政法大学取景拍摄.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海热线教育频道——上海外国语大学2017年考研复试分数线公布.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海热线教育频道——上海大学2017年自主招生简章公布.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海热线教育频道——上海对外经贸大学统计与信息学院揭牌成立.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海热线教育频道——四季教育（集团）向华东师大捐赠1亿元人民币.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学2017保送生招生简章公布_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学2017年外语类保送生招生简章_2017年保送生招生简章_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学2017年艺术类招生简章-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学南校区新建工程获批 建筑面积达82863平方米--上海频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学南校区新建工程获批 建筑面积达82863平方米_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学南通基地启动 通州湾建设新高度_频道-南通_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学报考点2017考研网上报名公告-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学普通高中学生综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学机械臂系统成交公告 - 中国教育装备网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海理工大学高压相平衡仪成交公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院2006年招生章程--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院2014-2015学年学生实习工作服采购项目公开招标公告.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院2014全国大学生英语竞赛(B类)成绩_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院2015年春招校测资格线及相关通知_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院2016考研复试分数线-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院2016考研成绩查询入口开通-考研-中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院2017年考研调剂系统已开通-中公考研网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院与上汽签署合作协议共同培养人才 --上海分站--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院副校长焦斌一行在兰州城市学院考察交流-兰州城市学院-每日甘肃-教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院教师获上海市教育科学研究成果一等奖_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院教授一行到润邦重机参观访问_行业资讯_第一工程机械网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院普通高中学生综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院机械学院-中国测控网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院材料冲击试验机低温系统与装置采购项目的成交公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院毕业生受热捧_新浪新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院毕业生就业报告：硕士生近8成去国企_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海电机学院特邀咏春拳名师朱挺先生入校讲学_江苏频道_凤凰网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海缪斯音乐怎么样？- Hebnews.cn.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财大发布《上海营改增 5年试点成效分析报告》-财经频道-金融界.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学2013考研成绩开始查询__万家热线-安徽门户网站.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学2017年自主招生报名时间及入口_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学2017年自主招生报名条件_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学2017年自主招生计划数100人 ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学2017自主招生简章招生计划公布_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学发布《上海营改增5年试点成效分析报告》.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学发布《上海营改增5年试点成效分析报告》_新浪财经_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学周勇教授来数学与统计学院做学术报告-青大视点-青岛大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学国际MBA公开课 - 商学院资讯 - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海财经大学报告预测明年实际GDP增速约6.5%_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海音乐学院2017年博士研究生招生简章发布_考博_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海音乐学院2017年艺术类招生简章-新东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上海音乐学院电梯的澄清公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上财浙院2017年“三位一体”招生工作圆满结束.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上财金融硕士考研必备备考经验-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上音-英皇联合学院在沪成立 英才教育班面向全球招生_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上音-英皇联合学院成立，英才培育班面向全球招生_文艺范_澎湃新闻-The Paper.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/上音携手英皇设联合学院__海南新闻网_南海网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/专业成绩第一考进上戏，19岁出道，被陈建斌抛弃后至今未嫁_新闻频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华・蒂维针织   最是一年春好处-中国服装时尚网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华大学2017届中日合作班毕业开幕秀-搜狐.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华大学2017年发展对象培训班开班_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华大学2017年外语类保送生招生简章_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华大学2017自主招生网上报名入口_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华大学教授刘春章：以THE思维改进旅游相关教育 - 酒店资讯-迈点资讯_旅游及大住宿业专业媒体 - 迈点-旅游及大住宿业门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华大学校园足球国际化建设服务项目中标公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华大学职业服研究所关于2018中国职业服流行趋势发布-服装展会报道-中国服装人才网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东华新锐设计师上海时装周“吸睛”-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/东润丘成桐科学奖2017注册报名开启，走复旦自招不要错过-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中共上海市纪律检查委员会 上海市监察局 中共上海海事大学委员会关于巡视整改情况的通报.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中共上海市纪律检查委员会 上海市监察局 中共上海理工大学委员会关于巡视整改情况的通报.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中戏上戏双料第一！艺考美女不太网红脸_娱乐焦点_娱乐频道_四川在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中戏上戏双料第一！这位艺考美女不太“网红脸”_三秦网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中戏上戏双料第一！这位艺考美女不太“网红脸”_湖北日报网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中戏上戏双料第一！这位艺考美女不是网红脸_娱乐_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中戏上戏双料第一！这位艺考美女不是网红脸（全文）_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中戏上戏第一名陈思敏个人资料 一细节透露出她文化水平不高_明星八卦_海峡网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中澳两地教育工会工作论坛在上海对外经贸大学举行_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/中银国际证券.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/临安：临安市举行招才引智暨上海电机学院科技成果发布会 -浙江省科技厅-创新号.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/人大上财考研复试线已出，其他34所还远么？国家线会如何变动？_合肥网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/人民日报海外版-人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/优秀毕业生！胡歌回上海戏剧学院当考官-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/信息院领导访问东华大学-塔里木大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/全国人大代表、东华大学教授严诚忠：人才资源也要供给侧改革  - 培训鉴定 - 中国就业网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/刘天羽教授——上海电机学院_教授_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东师大“环境问题观察”课程上线_艺文志_中国环境.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东师大：自招考生可选填一类别4~6专业-新闻中心-东北新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东师范大学2017年公共管理硕士（MPA）复试通知 - MPA复试 - MBA中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东师范大学2017年自主招生简章--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东师范大学2017年高校专项计划招生简章_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学2017保送生招生简章公布_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学2017年硕士研究生报考须知-考研-中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学2017年高水平运动队招生章程_2017年体育特长生招生简章_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学为引进人才,贴出招聘称最高房补贴800万元、年薪最高为100万元。校方称,此待遇为史上最高待遇。_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学优势专业2017_金陵热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学教授·罗培新： _ 经济参考网 _ 新华社《经济参考报》官方网站.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学教授高富平：消除个人数据保护的五大误区_中国信息产业网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学普通高中学生综合素质评价信息使用办法 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学试行本科生刷卡上课—新闻—科学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学试行本科生刷卡上课，学生质疑有违大学自由精神_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学长宁校区历史建筑保护性修缮及基础设施改造工程服务公开招标项目中标公告_首页标讯_中标公告-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东政法大学长宁校区河西食堂厨房燃气报警器采购项目的延期公告_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学2017年农村学生单独招生励志计划招生简章 ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学2017年考研成绩查询入口开通-考研-中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学2017年自主招生报名时间及入口_高考网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学2017年设计学类本科招生简章（外省市） ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学2017自主招生网上报名入口_高考_新东方在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学商学院MBA20周年庆标识甄选投票_教育频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学自主招生：招生专业多达67个_烟台教育_胶东在线教育频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工大学金融学题库(原货币银行学)_金陵热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华东理工宝石鉴定证书怎么查-珠宝知识-金投珠宝-金投网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华政中外法律文献中心成立_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/华理商学院入选AACSB启示性创新示范案例_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/南方都市报：中国大学生校园足球联赛北师大珠海分校开球  东华大学能否强势卫冕引期待.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/受访专家：上海海洋大学食品学院水产品加工及贮藏工程系主任、教授 陈舜胜 本报特约记者 赵建元_深圳新闻_深圳新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/台湾亚洲大学校董参访上海理工大学_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/同济大学2017年筑梦计划招生简章 ―上海高考―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/同济大学教授诸大建：共享单车面临这四大问题，还需探索_亿欧_产业创新服务平台.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/周长奎副局长会见上海外国语大学副校长一行-新闻频道-和讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/国内外专家学者齐聚复旦 畅谈博雅教育与未来人才培养 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/国家技术转移示范机构上海理工大学分中心在南宁揭牌--人民网广西频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/国际海事组织亚洲海事技术合作中心落户上海海事大学 - 中国日报网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/在昆山就能看到上海、江苏名医是怎样一种体验？-商业频道-金融界.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/复旦与杨浦投资2000万成立上海智能产业创新研究院 - 财经媒体 - 263理财财富网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/复旦人文课程国学与生活美学春季班盛大招生，首期课程诚意巨献-搜狐文化频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/复旦大学与杨浦区签约深化合作_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/复旦大学中华古籍保护研究院独辟蹊径培养古籍修复人才-开化纸 古籍 复活 和刻本 荛花-上海频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/复旦大学图书馆医科馆家具_中国教育装备采购网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/复旦大学教授做客“南开马克思主义名家论坛”--一线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/复旦大学经济学院院长、复旦大学长江特聘教授、博士生导师_新浪财经_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/多数学校招生规模与往年持平 复旦新建大数据学院——人民政协网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/大学生上课下课都要刷卡考勤？十问十答华政抽查试行新办法--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/大学生海洋意识待增强--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/学位论文学术不端行为审查办法-华东政法大学-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/对外经贸大学发布就业质量报告 逾6成毕业生在京就业_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/尼康国际影像大师公开课在上海工程技术大学举办_网易数码.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/市海洋局领导赴上海海洋大学调研海洋科研与人才培养工作.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/并不是只有985大学是好大学 五大行业最强高校 ―高考频道―中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/幼儿园园长培训哪里好？华东师范大学园长培训 - 教育 - 为民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/徐建华副区长赴同济大学第一附属中学调研-教育频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/微微一笑很倾城拍摄地点帝都大学在哪 上海华东政法大学火了_尚之潮.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/德国博朗全球设计总监受邀东华大学授课_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/忻华：上海外国语大学欧盟研究中心副教授_中国扶贫在线_国家扶贫门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/我市与上海海洋大学签订战略合作协议 - 内江新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/我是上海大学中文系教授杨逢彬,如何用正确的姿势读《论语》,问我吧！_澎湃新闻-ThePaper.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/我是上海海洋大学教授,关于鱼翅贸易和鲨鱼保护,问我吧!_澎湃新闻-ThePaper.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/我爱上课CEO张敏出席盐城市与华东师范大学战略合作签约仪式_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/捷克驻上海总领事访问上海外国语大学_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/教科卫;广告.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/新鲜出炉！上海海事大学2017年硕士研究生招生复试线-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/景海鹏、陈冬复旦演讲十数次被掌声打断 还原舱内对话_新闻_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/景海鹏陈冬走进复旦大学_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/李增泉教授——上海财经大学、长江学者特聘教授_长江学者_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/杨洋郑爽《微微一笑很倾城》幕后故事：取景在上海华东政法大学&amp;nbsp;KO和郝眉有独立番外（组图）_影视工坊_武进新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/松江8所新增学校9月招生 包括上海对外经贸大学附属实验学校-上海对外 经贸大学 实验学校 学校发展 幼儿园-上海频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/松江青年创业俱乐部上海工程技术大学分部正式成立.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/校园特惠来袭 车轮考驾照走进华东政法大学【图】_厂商要闻_太平洋汽车网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/森赫电梯董事长李东流受聘为上海理工大学特聘教授-美通社PR-Newswire.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/沪22所高校春招自主测试资格线公布 上戏不低于306分_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/泉州市第七中学与上海财经大学举行优质生源基地校签约仪式--福建教育资讯--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/深海观测在临港开启产业化道路，国内光电巨头联手同济大学正式落户--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/牛皮癣医院上海交通大学_39健康网_疾病.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/盐城与华师大 开展战略合作__中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/盐城市人民政府与华东师范大学战略合作签约仪式在沪举行--地方--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/知性干练！姚晨现身上海大学艺考做老师_娱乐_环球网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/碧桂园酒店集团受邀访问上海交通大学 - 酒店信息 - 新闻资讯 - 中国航空旅游网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/科林电气成功在上交所挂牌上市 - 财经媒体 - 263理财财富网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/立信国际上海大学国际项目对接的专业与大学-招生快讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/立信国际上海电机学院2016年招生开班时间-招生快讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/粉川博之教授受聘为上海交通大学讲席教授[图]-上海交通大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/经贸司会见上海海事大学校长一行_新浪财经_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/航天员景海鹏、陈冬走进复旦大学-文化•生活-中国科技网首页.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/航天员景海鹏、陈冬走进复旦大学__中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/航天员景海鹏、陈冬走进复旦大学_头条_教育频道_沈阳网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/航天员景海鹏、陈冬造访复旦大学_凤凰财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/航天员景海鹏、陈冬造访复旦大学（组图）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/航天员景海鹏造访复旦大学参观航空航天实验中心-中新网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/航天英雄走进复旦校园__海南新闻网_南海网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/英雄航天员景海鹏、陈冬造访复旦大学举行英模报告会-中新网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/英雄航天员景海鹏、陈冬造访复旦大学举行英模报告会_资讯频道_凤凰网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/证大“九间堂中医”挂牌成立 打造云中医系统-搜狐财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/运动.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/送福利 车轮考驾照走进上海对外经贸大学【图】_厂商要闻_太平洋汽车网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/通籍著名教育家、华东师范大学原校长袁运开逝世,南通网-中国南通主流新闻资讯门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/郑爽杨洋《微微一笑很倾城》幕后故事：取景在上海华东政法大学 杨洋带病 - 中国网要闻 - 中国网 • 山东.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/郑爽杨洋《微微一笑很倾城》幕后故事：取景在上海华东政法大学 杨洋带病拍戏（组图）--重庆视窗--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/阿拉山口市雅本创业投资有限公司捐赠签约仪式在复旦大学举行_综合新闻_复旦大学.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/陈思敏中戏上戏双料第一 个人资料微博私照- 广州本地宝.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/陈思敏中戏上戏双料第一 其个人资料简介被热搜.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/陈思敏中戏上戏双料第一 眉眼间充满英气可谓明日之星_娱乐头条_大众网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/陈思敏中戏上戏双料第一 终于不是流行的网红脸-滚动新闻-金投期货-金投网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/陈思敏中戏上戏双料第一 网友大赞眼神有戏_游戏资讯_游戏行业新闻_爱拍原创新闻中心.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/陈思敏中戏上戏表演专业双料第一 陈思敏是谁个人资料介绍_百态_福州新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/雅鹿冠名2017亚太地区商学院沙漠挑战赛东华大学队_生活首页_onlylady女人志.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/青岛市政协委员、上海财经大学青岛财富管理研究院执行院长姜晖：青岛新引进高校可联合成立高级智库 - 青岛新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/青岛考区上海音乐学院艺术考级成绩查询_青岛奥数网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/静安区社会组织服务中心与上海大学社会学院召开共建对接会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/0/静安区社会组织服务中心与上海大学联合举办社会组织进校园招聘交流活动.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/2016上海外国语大学第三届国际嘉年华圆满落幕_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/2016会展蓝皮书发布研讨会日前在上海大学举行-科报集萃-新闻频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/2016青春伴夕阳·全国高校陪伴实践大赛走进上海大学_新浪新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/2017上海交通大学国际青年学者未来信息技术论坛举行_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/2017上海小升初看学霸在上外附中的神仙日子_上海奥数网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/2017年第一季度上海财经大学上海市社会经济指数系列发布(2)_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/2017年艺考开考 胡歌回上海戏剧学院当考官(图).txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/5000张公益票，上海音乐学院会在“上海之春”演什么_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/70年前学霸英文笔记的主人现身，上海海事大学老校友八九旬间写5本传记--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/ACCA与上海外国语大学深化培养国际商业领袖-商业频道-金融界.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/Pre-Sufer电商主题公开课暨2018年入学上财MBA（EMBA）预面试流程说明会举行.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/SISU ┆【特稿】 十八岁那年的上外棒球队-搜狐体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/SISU┆【预告】“‘一带一路’与丝路学研究”国际学术研讨会即将在上海外国语大学召开-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/[交大智慧]上海交大团队研究绿色农药获新进展[图]_滚动科技新闻_南方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/[市教委]2017年度中国环境资源法治高端论坛在上海财大举行.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/[短讯]据中国青年网记者多方确认，南通如皋籍经济学家、任上海财经大学国际工商管理学院院长鞠建东被提名诺贝尔经济学奖_综合资讯_外汇频道_全景网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/――姜晖和他的上财“青岛梦”_山东新闻_大众网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“一起改变未来”《网络英雄传前传：光未盛》新书发布会在沪举行_教育频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“三区联动、三城融合”结硕果 复旦与杨浦深化合作换挡提速.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“佟丽娅”惊现斗鱼《青春练习生》，上戏美女都是手游高手--游戏--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“光盘行动”大调查：上海大学“人人微节约”营造勤俭育人氛围_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“制造业黄埔军校”上海理工大学迎来110周年校庆_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“同跑济天下” 同济大学百十校庆 在闽校友长跑庆贺_大闽网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“建成遗产：一种城乡演进的文化驱动力”国际学术研讨会 在同济大学举行_中国建筑学会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“智能绿色无人艇军民融合发展战略研讨会”在上海交通大学举行_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“益起邦”杯中国校园公益大使评选上海赛区圆满落幕！_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“陆康印象一一陆康书法篆刻展”在上海大学开幕_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“飞地”起飞：看海宁如何多层次接轨上海-浙江新闻-浙江在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“首届诗礼文化国际论坛”在上海大学召开 - 北京文艺网 - 文艺综合门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/“高校思政与海洋意识教育创新论坛”倡议加强大学生海洋意识-闽南网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/【两学一做】国际文化交流学院党员教师第二支部与上海外国语大学_专题报道_复旦大学.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/【中国人权纪实】上海中医药大学：传承新时代的中医药文化_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/【图】上海工程技术大学毕业生设计优秀作品亮相上海时装周_新闻频道_中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/一头扎进故纸堆 他们在复旦修古籍 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/丁彬教授——东华大学、长江学者特聘教授_长江学者_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/三大国际组织中医药标准化平台齐聚上海，已发布7项国际标准_浦江头条_澎湃新闻-The Paper.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外MBA2016年度校企合作答谢会隆重举行_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外MBA教育中心主任吴昀桥：聚焦新形势 彰显国际化内涵_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外党委书记姜锋：为世界提供学习的机会-中国教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外史志康教授受邀赴美举办东西方文化相似点讲座_文化频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外大学生赴印度支教41天收获满满_凤凰财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外学子走进中国驻纽约总领馆.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外尚阳学校：携手同行 演绎精彩 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上外老师为何在“双胞胎之乡”过年？--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上师大“音乐教育名师讲堂”正式启动 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上师大上演歌剧《党的女儿》 新生观后当日写入党申请书-新闻频道-和讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上师大学生李明艳罹患肿瘤去世 捐献角膜_社会新闻_大众网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上戏定向委培人才专题座谈会在拉萨召开 - 教育新闻 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上戏校花力挺上港：我已迫不及待，一定要去现场-搜狐体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上戏艺考开考 考场外家长好像更紧张_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海东华大学“一学一做”教育实践系列主题团课开讲_青年组织__中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学义诊服务团赴贵阳义诊--贵州频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学庆校庆举办大型义诊，中经堂中医外治法和导引功法体验引爆全场_中新网_安徽新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学庆祝建校六十周年-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学建校60周年 斥资千万培养中医大师(图)_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学护理学组工作会议召开 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学教学实验中心副主任可燕来校作专题报告 - 地方头条 - 海外网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学教师张黎声 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学的解剖课：与伟大灵魂隔空对话—新闻—科学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学附属浦江高级中学正式挂牌――东方少年.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海中医药大学：建学术荣誉体系促学科发展―科研发展―中国教育和科研计算机网CERNET.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交大中海龙水下防务研究中心揭牌 构建军民融合创新平台_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交大医学院附属仁济医院揭示胰腺癌肿瘤调控新机制—新闻—科学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交大孟宪忠教授来锡授课 畅谈全球化背景下企业发展_新浪无锡_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交大建校121周年纪念活动举行_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交大成立创新设计中心 预计将于年内建成_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交大成立创新设计中心_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交大携手莫斯科航空学院联合培养复合型航空航天人才_航空院校频道_新闻中心_中国航空新闻网_航空行业第一新闻门户_CANNEWS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学-施耐德电气“能源管理及其自动化联合实践基地”揭牌仪式隆重举行 -- 飞象网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学企业竞争力研究所正式成立 马红漫担任所长-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学企业竞争力研究所正式成立 马红漫担任所长_中国经济网――国家经济门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学创新设计中心成立_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学创新设计中心成立―中国教育和科研计算机网CERNET.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学建校121周年纪念活动举行_广州日报大洋网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学揭示茴香霉素生物合成奥秘-最新动态-锐动源.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海交通大学：扎实学习贯彻落实全国高校思想政治工作会议精神 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海共青团——正文.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海外国语大学三个学科入选世界顶尖学科_中国大学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海外国语大学与正阳公关达成战略合作 共创校企合作新模式_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海外国语大学尝试破解思政教育“孤岛化”困境-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海外国语大学文学研究院院长郑体武教授来西安外国语大学讲学_高校讲堂_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海外国语大学：用世界语言讲述中国故事_高等教育_中国教育新闻网-www.jyb.cn  记录教育每一天.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学“课程思政”：在“时代音画”中解码中国文化――东方少年.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学上海电影学院2017年艺考招生再次来袭_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学上海电影学院表演专业开考 不允许化妆-陈凯歌 艺考 考试招生 裙装 考生报考-上海频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学上海电影学院表演专业首次招生考试.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学人人微节约 师生共餐互促进_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学教育MBA项目院长研修班举行_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学来黔进行招生宣讲 3月15日起将举办信息发布会 - 新闻快讯 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学校长金东寒：高校如何增加“纸变钱”的能力？.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学校长：高校要增加纸变钱能力 提高钱变纸质量_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学研发出新型压铸模材料并实现国产化-上海大学,新型压铸模-塑料行业-hc360慧聪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海大学：“创业人生”课程 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海学子荣获保罗・科尼歌剧声乐大赛亚军_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学两千三百名学生在家乡寻找身边守望春节的劳动者.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学和对外经济贸易大学哪个好？铁龙物流或受益(2) - 南方财富网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学团委发起大学生寻找“古诗词中的美丽家乡”活动.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学团委：理性朋友圈，文明过新年_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学学生眼中的防城港市精准扶贫-新华网广西.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学成立“数据科学与管理决策重点实验室”-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学成立商务大数据研究中心_高等教育_中国教育新闻网-www.jyb.cn  记录教育每一天.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学拿出黄金地段“投资未来”_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学教授杨浩：经济最困难的时候已经过去_行业新闻_新闻_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海对外经贸大学组织学生在春节学习家乡传统手工艺-闽南网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学中法时装学院毕业秀亮相外滩高级定制中心［图］_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学开展校企合作的三个故事_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学扎实推进大学生创新创业工作 - 新闻快讯 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学服装设计与工程专业介绍.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学朱君璇：三项举措加强海外人才的引进工作 --教师频道--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学构建产学合作的高等工程教育体系_高等教育_中国教育新闻网-www.jyb.cn  记录教育每一天.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学校园引导标识更新项目的中标公告_首页标讯_中标公告-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海工程技术大学校长夏建国教授莅临广东理工职业学院做高职人才培养改革专题讲座 --广东分站--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海市先进聚合物材料重点实验室——华东理工大学_省部重点实验室_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海市敬业中学签约中药大中医药科学创新实践工作站实践点_全国各地高中动态_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海市欧美同学会・上海市留学人员联合会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海市英语教育教学研究基地揭牌_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师大上演校园版民族歌剧《党的女儿》 新生观后写下入党申请书_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师大国际戏剧工作室首部大戏《海鸥》精彩亮相 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师大把思政课堂搬上“音乐岛” - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师大校园版民族歌剧《党的女儿》进京演出.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师大研支团发放奖学金一束阳光情牵沪桂_大学生志愿服务西部计划_中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师大研究团队发现新物种_综合_中国教育新闻网-www.jyb.cn 记录教育每一天！.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师范大学8位志愿者在铁路上海南站体验别样寒假.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师范大学教授纠正《还珠》歌词 山无棱天地合有错_新浪上海_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师范大学教授高校老师龙袍上课 歌词高山没有棱角是说不通的_中国网·海峡频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师范大学校花孙琳琳笑容甜美身材赞【图】_中国大学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师范大学民族文化专家张雄深入款场乡考察“款文化” - 本网专稿 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师范大学第三届“国家治理·法政论坛”召开.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海师范大学：六方面提升二级单位党组织整体功能--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海戏剧学院原创戏曲音乐剧《小王子》在静安上演.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海戏剧学院召开主题为“文娱星力量”的战略会_新浪娱乐_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海戏剧学院教授陆军：年轻演员基本功有欠缺，要去体验生活_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海戏剧学院附属戏曲学校展台，戏曲装扮的学生 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海民进.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海浦东新区知识产权局与上海海事大学签署知识产权工作战略合作协议--国家知识产权局.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学87岁“老学霸”和他的笔记-教育频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学“两中心” 在通州湾启用_新华报业网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学“两中心”在通州湾示范区启用,南通网-中国南通主流新闻资讯门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学副教授王红丽应邀为交大学子讲授思政理论课[图]-上海交通大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学学生利用假期时间支教腾冲_云南网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学探索思想政治教育与海洋意识教育的协同推进-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学香港校友会与香港海员工会联合举办“海事广州行”活_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学：专业课里的价值引领_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学：云计算环境下的高校DevOps实践之路―中国教育和科研计算机网CERNET.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海事大学：灵活机制让教授名正言顺当老板_高等教育_中国教育新闻网-www.jyb.cn  记录教育每一天.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学团队潜心研究十余年 孔雀石绿有了完美替代药 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学学生获市大学生创业大赛金奖_凤凰财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学探测器下潜深度超万米-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学教授陈舜胜：他就像学生们的人生百事通_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学每到招考季，憋屈事总会周期性上演――― “老土”名称遮盖水产类专业光芒 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学研发出孔雀石绿替代药物制剂-最新科研-锐动源.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学研究团队发明新型体外血管模型.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海海洋大学第十届蟹文化节开幕_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海消防受邀参与华东政法大学本科课程教学工作.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线娱乐频道——第34届上海之春精彩纷呈 上音将推9台12场演出.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线娱乐频道——设计更接地气 2017东华大学毕业生作品公开展出.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线房产频道——有种食堂叫做别人家的食堂：上海理工大学篇.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线教育频道——上海师大与闵行区合作 将新增1小学1中学.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线教育频道——中学生为获一技之长放弃重点高中 两年内获两项专利.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线新闻频道—— 上海电机学院招聘会 170家企业带来5000就业岗位.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线新闻频道——上海交大成立创新设计中心 培养创意型复合人才.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线新闻频道——上海财经大学举办2017首席财务官高峰论坛.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线新闻频道——上海音乐学院音乐艺术大课堂首次走进时尚商圈.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海热线财经频道——上海外国语大学留学移民中心荣获中西交流促进奖.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工“先投后奖”上海海事“先奖后投” 两条成果转化之路都走通了.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学中英国际学院上海理工大学外语学院党委书记魏东一行到中英国际学院交流访问-招生快讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学中英国际学院建院十周年庆典举行 - 中国日报网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学党委书记吴松一行来校交流“双创工作”[图]-上海交通大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学召开中层干部大会部署新学期党政工作 --上海分站--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学实现高精度全光纤化重频锁定―科研发展―中国教育和科研计算机网CERNET.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学探索大学生创业教育新模式 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学整合资源扎实推进创新创业教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学朱亦鸣教授当选“长江学者”青年学者_中国大学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学附属初级中学接受教育督导室回访.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工大学：“精品本科”助力工程教育_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工有个“创业班”_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工研发质子重离子治疗仪360°旋转机架_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海理工迎110周年校庆 官方形象片《我的大学》发布 - 滚动热点 - 21CN.COM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院下调科研项目管理费至2%-科技世界网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院举行“智能制造应用型人才培养”中德论坛 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院创新人才培养方式 - 地方头条 - 海外网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院打出6张特色名片 03-国内・专版-解放日报.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院新增能源经济本科专业_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院校庆降低接待标准助学_新浪新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院桌面触摸式互动台的公开招标公告_首页标讯_招标公告-政府采购信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院海外基地培养专业硕士_新浪新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院结合应用型本科试点专业建设，重点探索人才培养、教师考核等机制体制创新———吃香的应用技术人才须“技、术、道”并重 - 中国服务外包网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海电机学院：规定科研项目管理费下调至2%_高等教育_中国教育新闻网-www.jyb.cn  记录教育每一天.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海离岸工程研究院及海工智能制造联合研究中心落户上海海事大学 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海第一所慰安妇博物馆今天在上师大揭幕--省市新闻--中国经济新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海聚德慈善基金会捐赠仪式落幕--民企--中国经济新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海聚运动与东华大学合作 打造体教结合新模式-搜狐体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海聚运动与东华大学合作 打造体教结合新模式_体育频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大2017首席财务官高峰论坛举行 拉开上财百年校庆大幕 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大人文学院终身教育志愿者向杨浦传递公益.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大商学院EMBA“校友大道（暂定名）”启动_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大商学院戴国强：美加息挑战大于机遇_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大商学院邀中金孙雷谈资本市场定价机制_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大外国语学院发挥学科优势为杨浦提供优质服务.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大报告预测：2017年实际GDP增速约为6.5%_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大经济学院结对三门中学开展志愿者服务项目-教育频道-北方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财大迎来百年校庆  探索双创人才培养新模式--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财经大学中国投资展望2017年会暨《中国投资展望报告》发布会顺利召开_凤凰财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海财经大学发布上海营改增试点报告：5年累计减税近2千亿_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海金融报――上海金融报新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院35部新作亮相2017上海之春--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院“文化中国思政课”开讲-中国文化传媒网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院《丝路追梦》西安首演，5位作曲家共谱丝路交响--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院与英国皇家音乐学院在沪联合办学_新浪财经_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院举办少数民族声乐精品展演.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院原创歌剧《汤显祖》将迎国家大剧院首演_新闻_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院原创音乐剧《生生》首度亮相连演5场反响热烈_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院师生登台亲和源 奏响慰问音乐会_新浪上海_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院建立“中国与东亚古谱研究中心”数据库.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院校花张箬被赞小“林志玲”_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院校花曾熙音乐之路_网易娱乐.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院现代器乐与打击乐系志愿者到贵州盛华职业学院指导盲人乐团--校园动态--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院等邀请台湾弦歌弓弦乐团交流演出.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海音乐学院荣获ICMC 2017主办权_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上海首届大学生安全知识竞赛落幕 上海海事大学夺冠_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上课时酿点儿啤酒、喝点儿白酒，华东理工这门课选修人数爆棚.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上财“菁融课堂”走进青岛高新区_青网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上财浙院五位干部深入全市剿劣督导工作一线_原创新闻_实时播报_新闻_金华新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上财：2016四季度沪投资者偏乐观 对上海投资环境看法积极_新浪财经_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上财：上海消费者对调控满意度大幅提升 但购房热情不减_国内财经_财经_中金在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上音中国风范原创音乐剧《汤显祖》沪上首演-新华网江西.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/上音学子为何能获国际音乐赛事大奖，他们如何脱颖而出？--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学丁彬教授入选“长江学者”特聘教授_中国大学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学与聚运动战略合作 可可维奇担任学校足球顾问_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学与聚运动战略合作 可可维奇担任学校足球顾问_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学携手上海钢联，“产学研联合培养基地”圆满落成_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学艺术设计毕业作品今社会展出_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学艺术设计毕业生作品面向社会展出-科报集萃-新闻频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学艺术设计毕业生作品面向社会展出（图）--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学：打造“易课堂” 开展网络互帮互学 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东华大学：高校共青团不是只“管”学生会--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东方网―2017静安现代戏剧谷定档5月 田沁鑫牵手上戏复排《狂飙》.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东方网―上海工程技术大学：为“两学一做”预热升温.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/东方网―五千张优惠票答谢乐迷 上音9台12场演出亮相“上海之春”.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/中医大与闵行区揭牌共建中医大附属浦江高级中学-教育频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/中医药高等教育一甲子 上海中医药大学举行相关纪念大会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/中华中医药学会精准医学分会成立大会暨专题论坛召开 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/中原区外国语小学与上海师范大学附属外国语小学缔结友好学校--新闻中心--郑州教育信息网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/中国人权纪实：医药传承，我们在行动-国际在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/中国外语教学改革高层论坛在上外举行.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/中德20多所高校学者齐聚上海，共商“智能制造”人才培养_浦江头条_澎湃新闻-The Paper.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/为千家万户生活作出“舌尖上”的贡献 记上海海洋大学教授陈舜胜.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/为高端船舶装上“中国心” 上海海事大学科研团队获大奖-船舶,电力,顾伟,游轮,推进,航向,大功率,科考,造船业,上海,-上海频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/乐山师范学院副校长任学锋带队考察上海大学等四所高校_高校动态_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/九三学社 上海市委员会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/交大、复旦亚洲青年交流中心联合举办“樱花情”团队共建活动[图]-上海交通大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/今天我们相聚上海工程技术大学，为母校庆生！ - 地方头条 - 海外网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/他曾在上戏任教，老婆比他大8岁，结婚至今恩爱有加_新华网山东频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/以改革创新精神推动党建责任制落地生根——上海对外经贸大学研讨推进基层党建工作 - 上海教卫党建网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/优酷携手上戏打造人才互通模式.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/修书更“修”心：复旦传承培养古籍修复人才_图片频道_新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/全国人大代表、东华大学教授严诚忠：进一步强化人才市场理念-财经频道-金融界.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/全国高校首个大学生创业奖在东华大学设立―中国教育和科研计算机网CERNET.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/全球172支参赛队伍齐聚上财 共同演绎辩论盛宴 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/兰州一中等4所高中成上海大学“优秀生源基地”_甘肃教育_中国甘肃网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/关注艺考季：上戏开考  浓妆叫停迟到被拒 _新闻深一度_新蓝网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/关爱老年人身心健康上海大学在行动_凤凰健康.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/冰壶领奖台上，有了阿拉 上海对外经贸大学男队获全国冰壶锦标赛铜牌-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/前鲁能青训教父携手东华大学探索体教结合模式_体育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/动手操作，体验创新：启新小学体验华理附中社团活动-教育频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/勇于创新 东华大学新锐设计师作品发布-侬好！上海-上海热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大“联姻”江苏盐城 校地牵手打造教育特色小镇 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大“阅读”校园主题活动日今日启动-中国社会科学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大举行“阅读”校园主题活动日_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大党委书记为学生做“导读者” - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大创设“阅读”校园主题活动日--社会--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大力促大学者与小鲜肉课外互动_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大学生阅读情况报告出炉_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大师生制上海高校周边书店地图：让学生放下手机-闽南网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大师生制上海高校周边书店地图：让学生放下手机_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师大首个校园主题日全校停课，师生走出教室聚焦科创_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学“崇明生态研究中心”揭牌-财经频道-金融界.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学“崇明生态研究中心”揭牌_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学传播学院新闻系主任陈红梅一行访问新闻与新媒体学院-西安交大新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学副教授到奉贤区育秀实验学校作讲座.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学孙有平教授主讲宜春学院第31期校友讲坛_高校讲堂_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学学者团队应用小分子探针技术联合研究发现胆固醇共价修饰新蛋白 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学海外共建孔子学院举办中国文化活动-中国侨网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东师范大学牵头组建中俄“两河领域”合作智库联盟_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东政法大学党委书记曹文泽撰文：让高校思想政治工作活起来_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东政法大学在校学生来长宁公证处参观交流学习.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东政法大学学霸放下硕士光环 做新兵攻下战士学位 _新浪上海_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东政法大学成立中外法律文献中心-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东政法大学：国际竞赛育出一流人才 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工MBA主任陈亮：在线教育是挑战更是机遇_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工入党“答辩”制 把住党员质量关_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工大学“通海茶叙”推出主题微课程_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工大学副校长钱锋一行来高新区考察-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工大学召开来华留学生教育工作表彰和经验交流会_校园新闻_清远传媒网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工大学新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工大学首位女“长江学者”诞生_中国大学网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工大学：一杯茶的“思政温度”_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工大学：打造服务型“小花梨”新媒体工作室 - 上海教育新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工学者首倡“材料生物学”， 或将促进交叉学科研究_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工建入党前后“答辩”机制 学生党员的群众满意度99%_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工教授开发新型红外荧光染料相关科研成果已在《德国应用化学》发表-科报集萃-新闻频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工研究中心开发环保润滑油获上海科技进步一等奖-金投原油网-金投网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华东理工超级科研团队交成绩单 4年7篇《自然》子刊论文--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华师大平均每天读一本书的阅读达人是如何练成的_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华师大精密光谱科技实验室5年引进19人 平均年龄33岁-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华政探讨法学博士后贡献法制中国_教育频道_大公网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华理中国风“家宴”为留校学子暖心_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华理教师为中学生启蒙工程伦理意识 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/华谊、华理共建上海化工新材料科技创新中心.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/南通：海门与上海工程技术大学建立全面合作关系_新华报业网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/县区传真—滁州市人民政府.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/吃货们请注意啦，华理超级“网红”青团正在呼唤你！-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济MBA“中国制造2025与企业管理创新”讲座_教育频道_中华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济MBA中心副主任崔麒元：依托特色国际化背景 助力商界精英_教育_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济大学2017年学生酷跑活动启动仪式举行_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济大学“樱花大道”迎最佳赏花期_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济大学“樱花大道”迎来最佳赏花期_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济大学学子获“21世纪杯”全国英语演讲赛总决赛一等奖.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济大学校友齐聚庆百十华诞 助力长春发展 - 新闻快讯 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济大学江西校友跑步共贺母校110周年华诞-南昌新闻中心-中国江西网首页.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/同济大学福建校友跑步共贺母校110周年华诞-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/名校贷CEO曾庆辉现身上海交大校招现场（图）.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/向蔚蓝世界进军 亨通光电与同济大学合资设立海洋装备公司_产业_中国信息产业网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/吕四港镇与上海海洋大学合作共建启东海洋科创中心沪上揭牌,南通网-中国南通主流新闻资讯门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/吴江：上海海洋大学师生走进汾湖 - 综合实力 - 中国网•东海资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/嘉兴接轨上海又推举措 平湖职中“联姻”华师大-城市频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/嘉峪关市与上海交大教育集团签订战略合作协议 王砚吴竹平等出席_嘉峪关_中国甘肃网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/国侨办中医关怀访问团访美国加拿大 切实服务侨胞-中国侨网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/国家体育总局.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/圆桌｜警惕过度开发，同济大学组织研讨建成遗产的活化再生_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/在上海电机学院举行的相关论坛上，中外专家热议工业4.0――大城市要准备迎接智能工厂“回家” - 每日科技网-打开科技之门.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/在全球首创“鱿鱼预报”的人 记上海海洋大学海洋科学学院院长陈新军.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/复旦大学书院传统文化月：上演琵琶与钢琴的“爱恋”_凤凰财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/复旦张汝伦跨界对话琵琶女神赵聪 “演”“讲”中华优秀传统文化魅力_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/复旦找出造纸秘方 为古籍修复提供材料保障_新浪上海_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/复旦杨浦共建1.5万平方米类脑创新研究院，有自我意识的人工智能或将诞生于此--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/复旦用现代科技保护古籍_央广网_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/外企德科CEO 上海理工大学中英国际学院学生赢得连任_临沂商讯_临沂_齐鲁网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/外高桥造船与上海海事大学签署战略合作协议——中国水运网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/多台音乐会梳理中国瑰宝__中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/多语种《习近平谈治国理政》捐赠仪式在上外图书馆举行_新闻中心_中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/大数据+智能算法有望治愈抑郁症和精神类疾病-生物谷专访复旦大学冯建峰教授 - 神经科学专区 - 生物谷.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/大足联赛超级组南区决赛 东华大学2-0武汉体院-搜狐体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/央广“光盘行动”调查走进上海大学_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/奉贤区华师大教授到育秀幼儿园指导语言教学活动.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/奉贤区市场监管局华东理工大学消费维权联络站顺利完成属地管辖交接.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/女干部复旦大学提素质_新闻_电子报_惠州_惠州日报_东江时报_惠州报业传媒集团.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/学车特惠第四站车轮考驾照走进上海海洋大学【图】_厂商要闻_太平洋汽车网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/宝山区委书记汪泓：转型升级“四朵花” 打造“绿精新顺”新宝山--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/宝山区罗店镇社会组织服务中心与上海工程技术大学合作成立大学生实习基地.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/寒门学子也能赴日韩高校交流 上海工程技术大学助学从“经济性资助”转向“发展性资助”.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/对外经贸大学推感悟实践 寒假作业寻找身边的无名英雄_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/对话校园 上海建联执行主席华东政法大学开讲_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/山东重点高中走进苏沪高校第二站：走进上海海事大学、复旦大学--山东教育资讯--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/工程大电子学院：抓实党支部书记“领头雁”作用，引领基层党支部建设 - 上海教卫党建网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/市政府与上海外国语大学签订战略合作协议_黄山新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/市政府与上海工程技术大学签订战略合作协议 马承祖致辞 颜赣辉签约.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/庆祝建校65周年--上海音乐学院邹彦教授为艺术学院师生作报告.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/徐汇区院与上海师范大学开展检校合作-崇明政法综治网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/微信校园卡能力上线，华东师范大学等300多家高校引领智慧校园服务 -- 飞象网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/想象力创造新商业 ――上海交大产业IP化升级论坛_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/我在春天种下一个东华-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/打造第三课堂，凝聚理想信念——上海中医药大学“中医青年”微信订阅号_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/扬大附中学子全国性英语比赛获一等奖 目标是上外_扬州网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/政通路“变身”计划9月前完成 两同济学生设计获选优胜方案_国内新闻_环球网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/教授兼职创业12年带公司上市 上海大学无克来机电股份_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/教育部信息化专家、上海师范大学博士生导师黎加厚教授应邀来渤海大学讲学_高校讲堂_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/斗鱼《青春练习生》晋级选手酷似佟丽娅，上戏美女演技一流 - 新闻频道 - 265G网页游戏门户.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/景海鹏、陈冬做客上海交大“励志讲坛” - 21CN手机网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/景海鹏陈冬做客上海交大励志讲坛 讲述“飞天”故事--教育--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/最爱楚辞《离骚》要做律政佳人 中国诗词大会首个总冠军是华政本科生_社会新闻_大众网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/朗基携手上海交大共推“全球英才奖学金” 四川新闻网 － 房产频道.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/杨浦区委与上海海洋大学党委举行中心组联组学习.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/杨浦区江浦路街道与上海理工大学创业项目对接协议签署.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/橄榄球——上海交大雄狮“激战”上海泰坦-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/民建：陈昌智赴上海海洋大学参观考察.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/江苏海门与上海工程技术大学建立全面合作关系--人民网江苏视窗--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/沪上一民营音乐书店面临生存危机引关注_大申网_腾讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/沪二本各校投档线公布 上海对外经贸大学摘得文理科头名_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/沪学生运动会足球项目落幕 东华大学男子甲组夺冠_网易体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/沪江语博会上外举行共享语言学习盛宴   - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/泛波罗的海大运会五人制足球赛 上海工程技术大学队摘亚-新华网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/注重因材施教 上海音乐学院学子频获国际赛事大奖-上音 国际声乐 学子 陈知远 国际比赛-上海频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/流体力学中偏微分方程研究进展研讨会在上海师范大学举行_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/浙江嘉兴市嘉善县与上海海洋大学开展产学研合作_水产快讯（业界动态）_中国水产养殖网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/浦东新区区委常委陈杰一行考察上海理工大学 --上海分站--中国教育在线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/浦东新闻网-其他媒体.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/浦东时报特供：上海中医药大学喜庆60华诞--上海频道--人民网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/海大人的双11：海洋与海事的距离……-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/海安上海交大智能装备研究院服务企业结硕果.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/海门市与上海工程技术大学建立全面合作关系.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/海门率先撑起人才接轨上海“门柱子”_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/游客在上海同济大学内欣赏樱花_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/濉溪县党委书记培训班在上海大学开班-新华网安徽.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/瀛东所捐资100万元助力上海财大法学院建设_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/煮打哥重庆小面&amp;麻辣烫总经理杨军--同济大学学霸转行做餐饮_首页资讯_武汉资讯_长江网_cjn.cn.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/理论热点_中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/瑞典皇家工程院院士、图灵奖得主都给上海交大带来了什么？_国内新闻_环球网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/甘肃省4所高中成上海大学“优秀生源基地“-教育-每日甘肃网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/用当红明星实在太贵他们干脆在上戏开班造星_凤凰资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/看她舞动百弦声如玉盘 下周末约一场扬琴独奏音乐会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/礼嘉镇与上海交大开展产学研对接_武进新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/神海牵手上海海事大学、校企共论未来航运发展思路_科技探索_财经频道_全景网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/神秘导师降临上海财大金融大作手，股票培训时不我待！_商讯_产经频道首页_财经网 - CAIJING.COM.CN.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/神舟载人好搭档景海鹏、陈冬在上海交大，这样接过大学生抛来的六问--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/福建肿瘤医院携手上海交大成立研究中心_医疗动态_健康一线资讯.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/科学网—华东师大崇明生态研究中心成立.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/科学网—华东理工大学商学院入选AACSB启示性创新示范院校.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/第34届上海之春国际音乐节月底开幕 上海音乐学院公布“音乐菜单” - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/第一届百所高校赛上财一队夺冠 北大遗憾获亚军_棋牌_新浪竞技风暴_新浪网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/第三届博雅教育国际研讨会在复旦大学召开-教育频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/第二届上海对外经贸大学仲利企业参访活动圆满成功-美通社PR-Newswire.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/第二届全国青年理论创新奖颁布，唯一获奖本科生来自上海大学_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/精彩！上海中医药大学如何让学生 有收获 不迷航-搜狐教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/美国加利福尼亚大学伯克利分校校长访问华东师范大学_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/聚运动携手东华大学共建校园足球新模式-搜狐体育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/肖莺子在沪拜会上海海事大学校长黄有方并走访企业.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/胡歌上戏当考官 学弟兴奋与其自拍发朋友圈__中国青年网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/胡歌上戏当考官 网友调侃考场现场秒变粉丝见面会_央广网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/艺术设计更具人情味 东华大学首次集中展出近300件毕业设计作品_凤凰财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/艺考放榜学霸出没 陈思敏获中戏上戏双料第一名 - 中国网山东娱乐 - 中国网 • 山东.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/英国教育国务大臣为“东华爱丁堡创意产业中心”揭牌-新闻频道-和讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/英格兰和威尔士首席大法官托马斯一行访问华东政法大学_尚七网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/西北大学多措并举加强党建工作 提升学生党员思想政治素养_高等学校_教育新闻_陕西省教育厅.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/证大集团联手上海中医药大学战略合作 共促中医药复兴_网易财经.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/调查显示上海投资者与消费者信心指数均上升 - 滚动热点 - 21CN.COM.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/轨交9号线今晨发生故障 大学生参与疏散乘客-上海,疏散,李哲辉,第二课堂,大学城,乘客,轨道,故障,老人,志愿者,-上海频道-东方网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/辽宁工程技术大学召开学生工作人员意识形态安全教育培训会_高校动态_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/近千人齐种树 东华大学植树活动迈入第十年 - 中时电子报.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/这不是高级餐厅 这是同济大学食堂_网易教育.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/追思上海海洋大学王武教授：找不出能够印制的单人正面照--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/郭子凡北电第一力压王俊凯，夏之光上戏第二、赵磊上音第四，国产男团X玖竟是实力派？_橘子娱乐.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/钦州市与上海海事大学建立合作伙伴关系 _新闻频道_广西网络广播电视台.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/钱锋院士为华理学生上“思政课” - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/钻石小鸟携手上海海事大学吹响青春的闪耀“海螺”_网易新闻.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/链尚网首个“校园布舍”落地上海工程技术大学-商业频道-金融界.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/闵行区古美路街道与上海戏剧学院举行文化合作项目工作推进会.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/闽沪携手建设音乐艺术实践基地 助力两地青少年艺术教育-新华网福建.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/陆毅竟是95级上戏全校最帅，追求鲍蕾犹如霸道总裁_明星娱乐_金陵热线.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/陈昌智赴上海海洋大学参观考察_中国政协_中国网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/集美大学校长李清彪走访上海海洋大学等高校_高校动态_中国高校之窗.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/静安动态-静安区政法综治网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/音乐“搭台”：复旦大学附属儿科医院文化和内涵建设注入新元素_综合新闻_复旦大学.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/音乐教育如何搭 “互联网+”这班车_音乐漫步_烟台大众网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/首家名老中医门诊入驻七宝“中医特色街” 将常年执业-新闻频道-和讯网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/首届“‘社区为本’临终关怀社会工作实务论坛”在上海大学召开 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/首届法治战略论坛举行  中国法治战略研究中心成立 - 上海新闻网.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/首批6个上观读书亭进驻上师大——图书漂流掀起学生阅读新风潮--上观.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/驻曼彻斯特总领事孙大立出席上海音乐学院副院长廖昌永教授与领区留学生学者交流座谈会 — 中华人民共和国外交部.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/text_classification/sentiment_label_data/1/高校直播开学礼 上海海事大学通过手机全程直播-金投银行频道-金投网.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_crawler/main_spider.py" afterPath="$PROJECT_DIR$/web_crawler/main_spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_crawler/mod_config.py" afterPath="$PROJECT_DIR$/web_crawler/mod_config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_crawler/process_data.py" afterPath="$PROJECT_DIR$/web_crawler/process_data.py" />
+    </list>
     <ignored path="SMU_POA_Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,7 +882,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SMU_POA_Project$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1492671624799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_crawler" />
+    <SUITE FILE_PATH="coverage/SMU_POA_Project$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1492678968410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_crawler" />
+    <SUITE FILE_PATH="coverage/SMU_POA_Project$process_seg.coverage" NAME="process_seg Coverage Results" MODIFIED="1492743615089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text_classification" />
     <SUITE FILE_PATH="coverage/SMU_POA_Project$mod_config.coverage" NAME="mod_config Coverage Results" MODIFIED="1492648076023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_crawler" />
     <SUITE FILE_PATH="coverage/SMU_POA_Project$main_spider.coverage" NAME="main_spider Coverage Results" MODIFIED="1492654259003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_crawler" />
     <SUITE FILE_PATH="coverage/SMU_POA_Project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1492648141216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_crawler" />
@@ -27,12 +896,12 @@
     <favorites_list name="SMU_POA_Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="mod_config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_crawler/mod_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
+            <state relative-caret-position="1680">
+              <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
               </folding>
@@ -50,23 +919,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_crawler/main_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="15" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="process_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_crawler/process_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="46" selection-end-column="29" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -74,12 +931,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="main_spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_crawler/main_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="179">
+              <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_seg.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text_classification/process_seg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+              <folding>
+                <element signature="e#38#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,16 +964,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web_crawler/mod_config.py" />
         <option value="$PROJECT_DIR$/web_crawler/demo.py" />
         <option value="$PROJECT_DIR$/web_crawler/app.conf" />
         <option value="$PROJECT_DIR$/web_crawler/create_traindata.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web_crawler/mod_config.py" />
         <option value="$PROJECT_DIR$/web_crawler/main_spider.py" />
         <option value="$PROJECT_DIR$/web_crawler/process_data.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/text_classification/process_seg.py" />
+        <option value="$PROJECT_DIR$/text_classification/hlt_stop_words.txt" />
       </list>
     </option>
   </component>
@@ -143,6 +1019,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,9 +1052,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMU_POA_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMU_POA_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text_classification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMU_POA_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMU_POA_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text_classification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentiment_seg_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +1095,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v7.7.3/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.process_data">
+  <component name="RunManager" selected="Python.process_seg">
     <configuration default="false" name="mod_config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +1164,24 @@
       <module name="SMU_POA_Project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_crawler/process_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="process_seg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text_classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SMU_POA_Project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_classification/process_seg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -343,6 +1269,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -462,23 +1394,28 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.mod_config" />
       <item index="1" class="java.lang.String" itemvalue="Python.demo" />
       <item index="2" class="java.lang.String" itemvalue="Python.main_spider" />
       <item index="3" class="java.lang.String" itemvalue="Python.process_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.process_seg" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.process_data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main_spider" />
-        <item index="2" class="java.lang.String" itemvalue="Python.demo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mod_config" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.process_seg" />
+        <item index="1" class="java.lang.String" itemvalue="Python.process_data" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main_spider" />
+        <item index="3" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mod_config" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -491,28 +1428,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="827" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="827" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2081545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33197278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33061224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -522,51 +1467,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_application/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/web_crawler/mod_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_application/routes/restAPIs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_application/public/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_application/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_crawler/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_application/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1680">
+          <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,28 +1485,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_crawler/create_traindata.py">
+    <entry file="file://$PROJECT_DIR$/web_crawler/process_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_crawler/mod_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
+        <state relative-caret-position="465">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="46" selection-end-column="29" />
           <folding>
-            <element signature="e#24#43#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web_crawler/main_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="15" />
+        <state relative-caret-position="1545">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_classification/process_seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_application/routes/users.js" />
+    <entry file="file://$PROJECT_DIR$/web_application/routes/restAPIs.js" />
+    <entry file="file://$PROJECT_DIR$/web_application/public/js/config.js" />
+    <entry file="file://$PROJECT_DIR$/web_application/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/web_crawler/demo.py" />
+    <entry file="file://$PROJECT_DIR$/web_application/app.js" />
+    <entry file="file://$PROJECT_DIR$/web_crawler/create_traindata.py" />
+    <entry file="file://$PROJECT_DIR$/web_crawler/sentiment_label_data/-1/上海工程技术大学一男子死亡_网易新闻.txt" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_crawler/mod_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_crawler/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_classification/sentiment_label_data/0/21世纪人才网.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_classification/a.txt" />
+    <entry file="file://$PROJECT_DIR$/text_classification/sentiment_train_data/0/21世纪人才网.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_classification/sentiment_seg_data/-1/28岁乔任梁上海意外死亡 乔任梁死亡真相揭秘竟是这样 - 热点资讯 - 中国网•东海资讯.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_classification/sentiment_seg_data/-1/上海工程技术大学一男生在宿舍内死亡 现警方已介入调查_楚秀网.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_crawler/main_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
           </folding>
@@ -608,19 +1592,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_crawler/process_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="46" selection-end-column="29" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/text_classification/hlt_stop_words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_classification/process_seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="e#38#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

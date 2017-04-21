@@ -27,7 +27,7 @@ def request_NewsInfo(university):
 
     #每个学校取200条左右的新闻数据
     for i in range(0,200,20):
-        url=base_url.format(school=university["chn_name"],number=i)
+        url=base_url.format(school=university["zh_name"],number=i)
         print "开始请求: " + url
         time.sleep(2)
         try:
@@ -122,30 +122,3 @@ def main():
     print "所有学校数据爬取完毕"
 
 
-
-def s():
-    # 获得配置文件参数
-    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
-    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
-    UniversityList = mod_config.get_University_list()
-
-    #建立数据库连接
-    conn = MongoClient(MongoDB_Host,int(MongoDB_Port))
-    RawPOA = conn.RawPOA
-
-    #计数器
-    count = 0
-
-    for i in range(17,20):
-        count += 1
-        print "开始爬取第" + str(count) + "个学校数据,还有" + str(3 - count) + "个学校爬取"
-
-        newsCollection = request_NewsInfo(UniversityList[i])
-        save_DataToDB(newsCollection, RawPOA)
-        print UniversityList[i]["chn_name"] + "的新闻爬取完毕。共" + str(len(newsCollection)) + "条信息数据\n"
-
-    print "所有学校数据爬取完毕"
-
-#main()
-
-s()
