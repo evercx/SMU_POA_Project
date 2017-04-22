@@ -40,9 +40,8 @@ def extract_tfidf(train_data,typeDict):
     count_vect = CountVectorizer(stop_words=stopwordlist,max_df=0.5)
     X_train_counts = count_vect.fit_transform(train_data.data)
 
-
     #print "训练数据共有{0}篇,词汇计数为{1}个".format(X_train_counts.shape[0],X_train_counts.shape[1])
-    #print count_vect.vocabulary_.get(u'海事')
+    #print "'海事'出现的次数为:{0}".format(count_vect.vocabulary_.get(u'海事'))
 
     #TF-IDF提取文本特征
     tfidf_transformer = TfidfTransformer()
@@ -65,8 +64,8 @@ def train_sentiment_model(X_train_tfidf,train_data):
 
 def main():
 
-    #typeDict = mod_config.get_ModelType_Info()["sentiment"]
-    typeDict = mod_config.get_ModelType_Info()["classification"]
+    typeDict = mod_config.get_ModelType_Info()["sentiment"]
+    #typeDict = mod_config.get_ModelType_Info()["classification"]
 
     train_data = get_dataBunch(typeDict)
     X_train_tfidf = extract_tfidf(train_data,typeDict)

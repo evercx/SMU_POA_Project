@@ -1,12 +1,13 @@
 # -*- coding:utf-8 -*-
 import mod_config
-from sklearn.externals import joblib
+
 import jieba
 from pymongo import MongoClient
-from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
-from sklearn.externals import joblib
-from sklearn.datasets import load_files
 import  cPickle as pickle
+from sklearn.externals import joblib
+from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
+from sklearn.datasets import load_files
+
 
 def readFile(path):
 
@@ -85,11 +86,11 @@ def main():
     #
     #         text_seg = seg_ChineseText(iterm["body"])
     #
-    #         tfidf_sentiment = get_tfidf(text_seg,typeDict["sentiment"])
-    #         tfidf_classification = get_tfidf(text_seg,typeDict["classification"])
+    #         tfidf_sentiment = get_tfidf(text_seg,Dict["sentiment"])
+    #         tfidf_classification = get_tfidf(text_seg,Dict["classification"])
     #
-    #         sentimentResult = get_predictedResult(tfidf_sentiment,typeDict["sentiment"])
-    #         classificationResult = get_predictedResult(tfidf_classification,typeDict["classification"])
+    #         sentimentResult = get_predictedResult(tfidf_sentiment,Dict["sentiment"])
+    #         classificationResult = get_predictedResult(tfidf_classification,Dict["classification"])
     #
     #         newsDoc = iterm
     #         newsDoc["sentiment"] = sentimentResult
@@ -101,7 +102,7 @@ def main():
     #     print uni["zh_name"] + "的新闻信息已保存完毕"
 
 
-    text_seg = seg_ChineseText("通告")
+    text_seg = seg_ChineseText("上海海事大学2017年拟录取硕士研究生名单公示")
 
     tfidf_sentiment = get_tfidf(text_seg, Dict["sentiment"])
     tfidf_classification = get_tfidf(text_seg, Dict["classification"])
@@ -109,11 +110,14 @@ def main():
     sentimentResult = get_predictedResult(tfidf_sentiment, Dict["sentiment"])
     classificationResult = get_predictedResult(tfidf_classification, Dict["classification"])
 
-    print sentimentResult
-    print classificationResult
+    print "待分类预测文本:'上海海事大学2017年拟录取硕士研究生名单公示' 的分类结果为:\n 情感分类:{0}\n 类别分类:{1}\n".format(sentimentResult,classificationResult)
 
 
 
+
+
+    #print sentimentResult
+    #print classificationResult
 
 
 main()
