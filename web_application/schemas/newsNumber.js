@@ -4,25 +4,28 @@
  ********************************************************************************************************************/
 
 var mongoose = require('mongoose');
-var dataSchema = new mongoose.Schema({
+var newNumberSchema = new mongoose.Schema({
 
-    school:{     //大学名称
+    Uname:{     //大学名称
         type:String
     },
-    study:{     //学习分类
+    abbr:{     //
         type:String
     },
-    activity:{     //活动分类
-        type:String
+    studyNumber:{     //学习分类
+        type:[]
     },
-    entrance:{     //入学分类
-        type:String
+    activityNumber:{     //活动分类
+        type:[]
     },
-    social:{     //社会分类
-        type:String
+    entranceNumber:{     //入学分类
+        type:[]
+    },
+    socialNumber:{     //社会分类
+        type:[]
     }
 });
 
 
 
-module.exports = dataSchema;
+module.exports = newNumberSchema;

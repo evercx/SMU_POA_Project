@@ -6,8 +6,9 @@ var restify = require('express-restify-mongoose');
 var ipConfig = require('../ipConfig');
 
 var collegesModel = require('../models/colleges');
-var dataModel = require('../models/data');
+var dataModel = require('../models/newsNumber');
 var newsModel = require('../models/news');
+var newsController = require('../controllers/news_controller');
 
 mongoose.connect(ipConfig.mongodb);
 
@@ -21,6 +22,8 @@ router.use('/api/v1/*',function(req,res,next){
       next();
     }
  });
+
+router.get('/count',newsController.getNewsNumbers);
 
 restify.serve(router,collegesModel);
 restify.serve(router,dataModel);

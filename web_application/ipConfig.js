@@ -3,8 +3,9 @@
  */
 
 var IPAddress = {
-    mongodb:'mongodb://localhost:27017/poa/'
-    //mongodb:'mongodb://42.96.142.224:27017/POA/'
+    //mongodb:'mongodb://localhost:27017/poa/'
+    //mongodb:'mongodb://121.42.236.250:27034/POA/'
+    mongodb:'mongodb://121.42.236.250:27034/ResultPOA/'
 };
 
 //exports.db = PSOCFI_DB;

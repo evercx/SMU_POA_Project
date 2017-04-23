@@ -9,6 +9,6 @@
 
 var mongoose = require('mongoose');
 var collegesSchema = require('../schemas/colleges');
-var collegesModel = mongoose.model('colleges',collegesSchema,'colleges');
+var collegesModel = mongoose.model('colleges',collegesSchema,'universitylist');
 
 module.exports = collegesModel;

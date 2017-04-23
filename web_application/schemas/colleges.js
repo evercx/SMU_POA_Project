@@ -5,10 +5,10 @@
 
 var mongoose = require('mongoose');
 var collegeSchema = new mongoose.Schema({
-    zh_colleges:{     //大学中文名
+    zh_name:{     //大学中文名
         type:String
     },
-    en_colleges:{     //大学英文名
+    en_name:{     //大学英文名
         type:String
     }
 });

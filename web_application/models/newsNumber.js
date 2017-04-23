@@ -8,7 +8,7 @@
 
 
 var mongoose = require('mongoose');
-var dataSchema = require('../schemas/data');
-var dataModel = mongoose.model('data',dataSchema,'data');
+var newsNumberSchema = require('../schemas/newsNumber');
+var newsNumberModel = mongoose.model('newsnumber',newsNumberSchema,'newsNumber');
 
-module.exports = dataModel;
+module.exports = newsNumberModel;
