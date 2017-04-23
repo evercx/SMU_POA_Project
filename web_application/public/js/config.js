@@ -30,17 +30,11 @@ var school_list={
 	'usst':'上海理工大学',
 	'shou':'上海海洋大学',
 	'shutcm':'上海中医药大学',
-	'sus':'上海体育学院',
 	'shcmusic':'上海音乐学院',
 	'sta':'上海戏剧学院',
 	'shift':'上海对外经贸大学',
 	'sdju':'上海电机学院',
-	'sues':'上海工程技术大学',
-	'shanghaitech':'上海科技大学',
-	'dlmu':'大连海事大学',
-	'whut':'武汉理工大学',
-	'jmu':'集美大学',
-	'ouc':'中国海洋大学'
+	'sues':'上海工程技术大学'
 };
 
 var classification = {

@@ -7,35 +7,35 @@ $(function () {
 	//获取海事大学相关数据
 	//查询字符串需要通过data字段传参,不能使用字符串拼接的方式。在IE11下不支持字符串拼接!
 	$.ajax({
-		url:'/api/v1/data',
+		url:'/api/v1/newsnumber',
 		type:'GET',
-		data:{"query":'{"school":"上海海事大学"}'},
+		data:{"query":'{"Uname":"上海海事大学"}'},
 		async:false,
 		success:function(data,status){
 			console.log(data)
 			var study= {
-				total:data[0].study,
-				postive:Math.floor(data[0].study/3),
-				neutral:Math.floor(data[0].study/3),
-				negative:data[0].study-Math.floor(data[0].study/3)-Math.floor(data[0].study/3)
+				total:data[0].studyNumber[3],
+				postive:data[0].studyNumber[2],
+				neutral:data[0].studyNumber[1],
+				negative:data[0].studyNumber[0]
 			};
 			var activity = {
-				total:data[0].activity,
-				postive:Math.floor(data[0].activity/3),
-				neutral:Math.floor(data[0].activity/3),
-				negative:data[0].activity-Math.floor(data[0].activity/3)-Math.floor(data[0].activity/3)
+				total:data[0].activityNumber[3],
+				postive:data[0].activityNumber[2],
+				neutral:data[0].activityNumber[1],
+				negative:data[0].activityNumber[0]
 			};
 			var entrance = {
-				total:data[0].entrance,
-				postive:Math.floor(data[0].entrance/3),
-				neutral:Math.floor(data[0].entrance/3),
-				negative:data[0].entrance-Math.floor(data[0].entrance/3)-Math.floor(data[0].entrance/3)
+				total:data[0].entranceNumber[3],
+				postive:data[0].entranceNumber[2],
+				neutral:data[0].entranceNumber[1],
+				negative:data[0].entranceNumber[0]
 			};
 			var social = {
-				total:data[0].social,
-				postive:Math.floor(data[0].social/3),
-				neutral:Math.floor(data[0].social/3),
-				negative:data[0].social-Math.floor(data[0].social/3)-Math.floor(data[0].social/3),
+				total:data[0].socialNumber[3],
+				postive:data[0].socialNumber[2],
+				neutral:data[0].socialNumber[1],
+				negative:data[0].socialNumber[0],
 			};
 
 			$("#smu").empty();
@@ -62,8 +62,8 @@ $(function () {
 	for (var i = 0;i<5;i++){
 		$("#select"+i).get(0).selectedIndex = i;
 		$("#select"+i).parent().parent(".result").attr("name",$("#select"+i).val());
-		var queryString = {"query":'{"school":"'+$("#select"+i+" option:selected").text()+'"}'};
-		var url = '/api/v1/data';
+		var queryString = {"query":'{"Uname":"'+$("#select"+i+" option:selected").text()+'"}'};
+		var url = '/api/v1/newsnumber';
 		$.ajax({
 			url:url,
 			type:'GET',
@@ -71,28 +71,28 @@ $(function () {
 			data:queryString,
 			success:function(data){
 				var study= {
-					total:data[0].study,
-					postive:Math.floor(data[0].study/3),
-					neutral:Math.floor(data[0].study/3),
-					negative:data[0].study-Math.floor(data[0].study/3)-Math.floor(data[0].study/3)
+					total:data[0].studyNumber[3],
+					postive:data[0].studyNumber[2],
+					neutral:data[0].studyNumber[1],
+					negative:data[0].studyNumber[0]
 				};
 				var activity = {
-					total:data[0].activity,
-					postive:Math.floor(data[0].activity/3),
-					neutral:Math.floor(data[0].activity/3),
-					negative:data[0].activity-Math.floor(data[0].activity/3)-Math.floor(data[0].activity/3)
+					total:data[0].activityNumber[3],
+					postive:data[0].activityNumber[2],
+					neutral:data[0].activityNumber[1],
+					negative:data[0].activityNumber[0]
 				};
 				var entrance = {
-					total:data[0].entrance,
-					postive:Math.floor(data[0].entrance/3),
-					neutral:Math.floor(data[0].entrance/3),
-					negative:data[0].entrance-Math.floor(data[0].entrance/3)-Math.floor(data[0].entrance/3)
+					total:data[0].entranceNumber[3],
+					postive:data[0].entranceNumber[2],
+					neutral:data[0].entranceNumber[1],
+					negative:data[0].entranceNumber[0]
 				};
 				var social = {
-					total:data[0].social,
-					postive:Math.floor(data[0].social/3),
-					neutral:Math.floor(data[0].social/3),
-					negative:data[0].social-Math.floor(data[0].social/3)-Math.floor(data[0].social/3),
+					total:data[0].socialNumber[3],
+					postive:data[0].socialNumber[2],
+					neutral:data[0].socialNumber[1],
+					negative:data[0].socialNumber[0],
 				};
 				updateCollegesNumber($("#select"+i),study,activity,entrance,social)
 
@@ -113,35 +113,36 @@ $(function () {
 		var en = $(this).val();
 		var ch = school_list[en];
 		$(this).parent().parent(".result").attr("name",en);
-		var queryString = {"query":'{"school":"'+ch+'"}'};
+		var queryString = {"query":'{"Uname":"'+ch+'"}'};
 		$.ajax({
-			url:'/api/v1/data',
+			url:'/api/v1/newsnumber',
 			type:'GET',
 			data:queryString,
 			success:function(data){
+				console.log(data);
 				var study= {
-					total:data[0].study,
-					postive:Math.floor(data[0].study/3),
-					neutral:Math.floor(data[0].study/3),
-					negative:data[0].study-Math.floor(data[0].study/3)-Math.floor(data[0].study/3)
+					total:data[0].studyNumber[3],
+					postive:data[0].studyNumber[2],
+					neutral:data[0].studyNumber[1],
+					negative:data[0].studyNumber[0]
 				};
 				var activity = {
-					total:data[0].activity,
-					postive:Math.floor(data[0].activity/3),
-					neutral:Math.floor(data[0].activity/3),
-					negative:data[0].activity-Math.floor(data[0].activity/3)-Math.floor(data[0].activity/3)
+					total:data[0].activityNumber[3],
+					postive:data[0].activityNumber[2],
+					neutral:data[0].activityNumber[1],
+					negative:data[0].activityNumber[0]
 				};
 				var entrance = {
-					total:data[0].entrance,
-					postive:Math.floor(data[0].entrance/3),
-					neutral:Math.floor(data[0].entrance/3),
-					negative:data[0].entrance-Math.floor(data[0].entrance/3)-Math.floor(data[0].entrance/3)
+					total:data[0].entranceNumber[3],
+					postive:data[0].entranceNumber[2],
+					neutral:data[0].entranceNumber[1],
+					negative:data[0].entranceNumber[0]
 				};
 				var social = {
-					total:data[0].social,
-					postive:Math.floor(data[0].social/3),
-					neutral:Math.floor(data[0].social/3),
-					negative:data[0].social-Math.floor(data[0].social/3)-Math.floor(data[0].social/3),
+					total:data[0].socialNumber[3],
+					postive:data[0].socialNumber[2],
+					neutral:data[0].socialNumber[1],
+					negative:data[0].socialNumber[0],
 				};
 				updateCollegesNumber(object,study,activity,entrance,social)
 			}
