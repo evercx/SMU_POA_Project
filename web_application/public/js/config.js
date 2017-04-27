@@ -46,6 +46,13 @@ var classification = {
 }
 
 
+var ipAddress = {
+
+	addrHost:'http://127.0.0.1',
+	addrPort: '4000'
+}
+
+
 
 //
 // var school_list_ch_en={

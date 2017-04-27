@@ -5,40 +5,35 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 		<meta charset="utf-8">
-		<title>舆情分析</title>
+		<title>上海海事大学舆情分析系统</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="css/home.css"/>
 
 	</head>
 	<body>
 
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <a class="navbar-brand" href="/" id="title">上海海事大学舆情分析系统</a><a class="navbar-brand" href="/" id="title" style="color:red">(开发测试中)</a>
-		    </div>
-		      <ul class="nav navbar-nav navbar-right">
-		        <!-- <li><a href="#">Link</a></li> -->
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="#" id="myAccount">show account here</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#" id="logout">logout</a></li>
-		          </ul>
-		        </li>
-		      </ul>
-		  </div><!-- /.container-fluid -->
-		</nav>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/" >上海海事大学舆情分析系统</a><a class="navbar-brand" href="/" style="color:red">(开发测试中)</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<!-- <li><a href="#">Link</a></li> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#" id="myAccount">show account here</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#" id="logout">logout</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /.container-fluid -->
+	</nav><br><br>
 
-
-		</br></br></br>
-
-
-		
 		<div class="container">
 			<div class="page-header" >
-			  <h1>高校综合新闻动态</h1>
+			  <h1>数据预览</h1>
 			</div>
 			<div class="row">
 				<table class="table table-hover table-bordered" >
@@ -49,7 +44,6 @@
 			            <th style="width:auto" colspan="4">社团活动</th>
 			            <th style="width:auto" colspan="4">招生考试</th>
 			            <th style="width:auto" colspan="4">社会新闻</th>
-						<th style="width:auto">查看</th>
 		            </tr>
 		            <tr>
 			            <th style="width:15%">&nbsp;&nbsp;情感分析</th>
@@ -57,18 +51,44 @@
 			            <th style="width:auto" class="active">总数</th><th style="width:auto" class="success"><img src="img/yes-16.png">&nbsp;&nbsp;正</th><th style="width:auto" class="info"><img src="img/info-16.png">&nbsp;&nbsp;中</th><th style="width:auto" class="danger"><img src="img/error-16.png">&nbsp;&nbsp;负</th>
 			            <th style="width:auto" class="active">总数</th><th style="width:auto" class="success"><img src="img/yes-16.png">&nbsp;&nbsp;正</th><th style="width:auto" class="info"><img src="img/info-16.png">&nbsp;&nbsp;中</th><th style="width:auto" class="danger"><img src="img/error-16.png">&nbsp;&nbsp;负</th>
 			            <th style="width:auto" class="active">总数</th><th style="width:auto" class="success"><img src="img/yes-16.png">&nbsp;&nbsp;正</th><th style="width:auto" class="info"><img src="img/info-16.png">&nbsp;&nbsp;中</th><th style="width:auto" class="danger"><img src="img/error-16.png">&nbsp;&nbsp;负</th>
-						<th style="width:3%" class="warning"></th>
 					</tr>
-
 		         </thead>
+
 		         <tbody>
-					 <tr  name="smu" id="smu" class="result">
-						 <td>&nbsp;&nbsp;上海海事大学</td>
-					 </tr>
+
 		         </tbody>
 				</table>
 			</div>
 		</div>
+
+
+	<!--<div class="container">-->
+
+		<!--<div class="page-header">-->
+			<!--<h1>Non-responsive Bootstrap</h1>-->
+			<!--<p class="lead">Disable the responsiveness of Bootstrap by fixing the width of the container and using the first grid system tier. <a href="http://getbootstrap.com/getting-started/#disable-responsive">Read the documentation</a> for more information.</p>-->
+		<!--</div>-->
+
+		<!--<h3>What changes</h3>-->
+		<!--<p>Note the lack of the <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code>, which disables the zooming aspect of sites in mobile devices. In addition, we reset our container's width and changed the navbar to prevent collapsing, and are basically good to go.</p>-->
+
+		<!--<h3>Regarding navbars</h3>-->
+		<!--<p>As a heads up, the navbar component is rather tricky here in that the styles for displaying it are rather specific and detailed. Overrides to ensure desktop styles display are not as performant or sleek as one would like. Just be aware there may be potential gotchas as you build on top of this example when using the navbar.</p>-->
+
+		<!--<h3>Browsers, scrolling, and fixed elements</h3>-->
+		<!--<p>Non-responsive layouts highlight a key drawback to fixed elements. <strong class="text-danger">Any fixed component, such as a fixed navbar, will not be scrollable when the viewport becomes narrower than the page content.</strong> In other words, given the non-responsive container width of 970px and a viewport of 800px, you'll potentially hide 170px of content.</p>-->
+		<!--<p>There is no way around this as it's default browser behavior. The only solution is a responsive layout or using a non-fixed element.</p>-->
+
+		<!--<h3>Non-responsive grid system</h3>-->
+		<!--<div class="row">-->
+			<!--<div class="col-xs-4">One third</div>-->
+			<!--<div class="col-xs-4">One third</div>-->
+			<!--<div class="col-xs-4">One third</div>-->
+		<!--</div>-->
+
+	<!--</div> &lt;!&ndash; /container &ndash;&gt;-->
+
+
 		
 		</br></br><!-- </br></br> -->
 
@@ -88,6 +108,7 @@
 	<script src="js/jquery1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/vue.js"></script>
 	<script type="text/javascript" src="js/config.js"></script>
-	<script type="text/javascript" src="js/home.js"></script>
+	<script type="text/javascript" src="js/statistics_page.js"></script>
 </html>

@@ -4,7 +4,12 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.sendFile(path.resolve('./','public/home.html'));
+  res.sendFile(path.resolve('./','public/home_page.html'));
+});
+
+/* GET statistics page. */
+router.get('/statistics', function(req, res, next) {
+  res.sendFile(path.resolve('./','public/statistics_page.html'));
 });
 
 /* GET news page. */
