@@ -11,6 +11,10 @@ router.get('/', function(req, res, next) {
 router.get('/statistics', function(req, res, next) {
   res.sendFile(path.resolve('./','public/statistics_page.html'));
 });
+/* GET detail page. */
+router.get('/detail', function(req, res, next) {
+  res.sendFile(path.resolve('./','public/detail_page.html'));
+});
 
 /* GET news page. */
 router.get('/news', function(req, res, next) {
