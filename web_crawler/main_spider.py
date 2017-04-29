@@ -10,6 +10,8 @@ import mod_config
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
 
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 
 # 请求新闻站点。输入为包含大学中英文名称的Dict。
@@ -19,7 +21,7 @@ def request_NewsInfo(university):
     base_url = "http://news.baidu.com/ns?word={school}&pn={number}&rn=20"
 
     # 设置用户代理
-    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+    user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
     headers = {'User-Agent': user_agent}
 
     # 返回结果为该高校的新闻数组集合
@@ -61,7 +63,7 @@ def request_NewsInfo(university):
         except urllib2.HTTPError,e:
             print e.reason
 
-        #print "已经爬取关于" + university["zh_name"] + "的新闻共" + str(len(response_result)) + "条"
+        print "已经爬取关于" + university["zh_name"] + "的新闻共" + str(len(response_result)) + "条\n"
 
     return response_result
 
@@ -76,6 +78,12 @@ def filter(doc):
         return "false"
 
     if len(doc["date"]) <= 10:
+        return "false"
+
+    if doc["body"].find('ä') != -1:
+
+        return "false"
+    if doc["title"].find('ä') != -1:
         return "false"
 
     return "true"
