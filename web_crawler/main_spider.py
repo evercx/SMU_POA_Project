@@ -26,7 +26,7 @@ def request_NewsInfo(university):
     response_result = []
 
     #每个学校取200条左右的新闻数据
-    for i in range(0,200,20):
+    for i in range(0,740,20):
         url=base_url.format(school=university["zh_name"],number=i)
         print "开始请求: " + url
         time.sleep(2)
@@ -50,7 +50,7 @@ def request_NewsInfo(university):
                 try:
                     html = urllib2.urlopen(href, timeout=5).read()
                     parseHTMLResult = process_BodyText(html)
-                    Uname = university["chn_name"]
+                    Uname = university["zh_name"]
                     abbr = university["en_name"]
                     document = {"Uname":Uname,"abbr":abbr,"title": parseHTMLResult["title"], "url": href, "date": date, "body":parseHTMLResult["body"]}
                     if filter(document) == "true":
@@ -60,6 +60,8 @@ def request_NewsInfo(university):
 
         except urllib2.HTTPError,e:
             print e.reason
+
+        #print "已经爬取关于" + university["zh_name"] + "的新闻共" + str(len(response_result)) + "条"
 
     return response_result
 
@@ -71,6 +73,9 @@ def filter(doc):
         return "false"
 
     if len(doc["body"]) <= 50:
+        return "false"
+
+    if len(doc["date"]) <= 10:
         return "false"
 
     return "true"
@@ -117,8 +122,9 @@ def main():
 
         newsCollection = request_NewsInfo(uni)
         save_DataToDB(newsCollection, RawPOA)
-        print uni["chn_name"] + "的新闻爬取完毕。共"+str(len(newsCollection))+"条信息数据\n"
+        print uni["zh_name"] + "的新闻爬取完毕。共"+str(len(newsCollection))+"条信息数据\n"
 
     print "所有学校数据爬取完毕"
 
 
+main()

@@ -144,7 +144,7 @@ def create_NewsNumbersInfo():
     ResultPOA["newsNumber"].insert(ResultList)
     print "保存成功"
 
-create_NewsNumbersInfo()
+#create_NewsNumbersInfo()
 
 
 

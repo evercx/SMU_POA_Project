@@ -1,5 +1,27 @@
 
-
+var paginationApp= new Vue({
+	el: '#paginationApp',
+	data : {
+		totalNumbers:20,
+		pageSize:5
+	},
+	methods:{
+		handleCurrentChange(val) {
+			//this.currentPage = val;
+			var requestConfig = {
+				method: 'get',
+				url: '/api/v1/newsnumber',
+				params:{
+					limit:paginationApp.pageSize,
+					skip:(val-1) * this.pageSize
+				}
+			}
+			axios(requestConfig).then(function (res) {
+				tableListApp.dataList = res.data;
+			})
+		}
+	}
+});
 
 var tableListApp = new Vue({
 	el:"#tableList",
@@ -8,10 +30,15 @@ var tableListApp = new Vue({
 	},
 	created:function() {
 		var _self = this;
-		axios.get('/api/v1/newsnumber').then(function (res) {
+		var requestConfig = {
+			method: 'get',
+			url: '/api/v1/newsnumber',
+			params:{
+				limit:paginationApp.pageSize
+			}
+		}
+		axios(requestConfig).then(function (res) {
 			_self.dataList = res.data;
-			console.log(this);
-			console.log(_self);
 		})
 	}
 })
