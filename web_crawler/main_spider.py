@@ -29,7 +29,7 @@ def request_NewsInfo(university):
     response_result = []
 
     #每个学校取200条左右的新闻数据
-    for i in range(700,780,20):
+    for i in range(0,740,20):
         url=base_url.format(school=university["zh_name"],number=i)
         print "Request begin:" + base_url.format(school=university["en_name"],number=i)
         time.sleep(2)
