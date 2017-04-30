@@ -77,40 +77,40 @@ def main():
     conn = MongoClient(MongoDB_Host,int(MongoDB_Port))
     ResultPOA = conn.ResultPOA
     RawPOA = conn.RawPOA
-    LocalResultPOA = MongoClient('192.168.1.9',27017).ResultPOA
+    LocalResultPOA = MongoClient('192.168.1.3',27017).ResultPOA
 
-    # for uni in UniversityList:
-    #
-    #     InsertList = []
-    #     for iterm in RawPOA["news"].find({"Uname": uni["zh_name"]}):
-    #
-    #         text_seg = seg_ChineseText(iterm["body"])
-    #
-    #         tfidf_sentiment = get_tfidf(text_seg,Dict["sentiment"])
-    #         tfidf_classification = get_tfidf(text_seg,Dict["classification"])
-    #
-    #         sentimentResult = get_predictedResult(tfidf_sentiment,Dict["sentiment"])
-    #         classificationResult = get_predictedResult(tfidf_classification,Dict["classification"])
-    #
-    #         newsDoc = iterm
-    #         newsDoc["sentiment"] = sentimentResult
-    #         newsDoc["classification"] = classificationResult
-    #         InsertList.append(newsDoc)
-    #
-    #     ResultPOA["news"].insert(InsertList)
-    #     LocalResultPOA["news"].insert(InsertList)
-    #     print uni["zh_name"] + "的新闻信息已保存完毕"
+    for uni in UniversityList:
+
+        InsertList = []
+        for iterm in RawPOA["news"].find({"Uname": uni["zh_name"]}):
+
+            text_seg = seg_ChineseText(iterm["body"])
+
+            tfidf_sentiment = get_tfidf(text_seg,Dict["sentiment"])
+            tfidf_classification = get_tfidf(text_seg,Dict["classification"])
+
+            sentimentResult = get_predictedResult(tfidf_sentiment,Dict["sentiment"])
+            classificationResult = get_predictedResult(tfidf_classification,Dict["classification"])
+
+            newsDoc = iterm
+            newsDoc["sentiment"] = sentimentResult
+            newsDoc["classification"] = classificationResult
+            InsertList.append(newsDoc)
+
+        ResultPOA["news"].insert(InsertList)
+        LocalResultPOA["news"].insert(InsertList)
+        print uni["zh_name"] + "的新闻信息已保存完毕"
 
 
-    text_seg = seg_ChineseText("上海海事大学2017年拟录取硕士研究生名单公示")
-
-    tfidf_sentiment = get_tfidf(text_seg, Dict["sentiment"])
-    tfidf_classification = get_tfidf(text_seg, Dict["classification"])
-
-    sentimentResult = get_predictedResult(tfidf_sentiment, Dict["sentiment"])
-    classificationResult = get_predictedResult(tfidf_classification, Dict["classification"])
-
-    print "待分类预测文本:'上海海事大学2017年拟录取硕士研究生名单公示' 的分类结果为:\n 情感分类:{0}\n 类别分类:{1}\n".format(sentimentResult,classificationResult)
+    # text_seg = seg_ChineseText("上海海事大学2017年拟录取硕士研究生名单公示")
+    #
+    # tfidf_sentiment = get_tfidf(text_seg, Dict["sentiment"])
+    # tfidf_classification = get_tfidf(text_seg, Dict["classification"])
+    #
+    # sentimentResult = get_predictedResult(tfidf_sentiment, Dict["sentiment"])
+    # classificationResult = get_predictedResult(tfidf_classification, Dict["classification"])
+    #
+    # print "待分类预测文本:'上海海事大学2017年拟录取硕士研究生名单公示' 的分类结果为:\n 情感分类:{0}\n 类别分类:{1}\n".format(sentimentResult,classificationResult)
 
 
 
