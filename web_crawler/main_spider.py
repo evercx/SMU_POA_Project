@@ -19,21 +19,26 @@ sys.setdefaultencoding('utf8')
 def request_NewsInfo(university):
 
     # 请求地址模板
-    base_url = "http://news.baidu.com/ns?word={school}&pn={number}&rn=20"
+    base_url = "http://news.baidu.com/ns?word={school}&pn={number}&rn=20&cl=2"
 
     # 设置用户代理
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
     headers = {'User-Agent': user_agent}
 
+    #repeat = False
+
     # 返回结果为该高校的新闻数组集合
     response_result = []
+    
+    tempConstractList = []
 
     #每个学校取200条左右的新闻数据
     for i in range(0,740,20):
+        tempList = []
         url=base_url.format(school=university["zh_name"],number=i)
         print "Request begin:" + base_url.format(school=university["en_name"],number=i)
         time.sleep(2)
-        repeat = False
+        
         try:
             request=urllib2.Request(url,headers=headers)
             html=urllib2.urlopen(request).read()
@@ -58,18 +63,22 @@ def request_NewsInfo(university):
                     abbr = university["en_name"]
                     document = {"Uname":Uname,"abbr":abbr,"title": parseHTMLResult["title"], "url": href, "date": date, "body":parseHTMLResult["body"]}
                     if filter(document,response_result) == "true":
-                        response_result.append(document)
-                    if filter(document,response_result) == "repeat":
-                        repeat = True
+                        tempList.append(document)
+                    # if filter(document,response_result) == "repeat":
+                    #     repeat = True
                        
                 except Exception, e:
                     print e
-            if repeat:
-                break;
 
         except urllib2.HTTPError,e:
             print e.reason
 
+        if (tempConstractList == tempList):
+            tempConstractList = []
+            break;
+        tempConstractList = tempList
+        for o in tempList:
+            response_result.append(o)
         print "The System has Downloaded " + str(len(response_result)) +" news of " + university["en_name"];
 
     return response_result
@@ -93,8 +102,8 @@ def filter(doc,List):
     if doc["title"].find('ä') != -1:
         return "false"
     
-    if(findInList(List,"title",doc["title"]) != -1):
-        return "repeat"
+    # if(findInList(List,"title",doc["title"]) != -1):
+    #     return "repeat"
 
     if(findInList(List,"url",doc["url"]) != -1):
         return "repeat"
@@ -105,6 +114,9 @@ def filter(doc,List):
 
 def findInList(List,key,value):
     count = 0
+    #print List
+    #print key
+    #print value +'\n'
     for element in List:
         if(element[key] == value):
             return count
