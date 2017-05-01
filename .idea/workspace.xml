@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6172bce-c5df-42e4-904f-42910ef81614" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_application/public/detail_page.html" afterPath="$PROJECT_DIR$/web_application/public/detail_page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_application/public/home_page.html" afterPath="$PROJECT_DIR$/web_application/public/home_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_application/public/statistics_page.html" afterPath="$PROJECT_DIR$/web_application/public/statistics_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_crawler/process_data.py" afterPath="$PROJECT_DIR$/web_crawler/process_data.py" />
     </list>
     <ignored path="SMU_POA_Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +67,7 @@
       <file leaf-file-name="statistics_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_application/public/statistics_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="165">
               <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -83,8 +79,8 @@
       <file leaf-file-name="home_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web_application/public/home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="460">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -1020,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_application/public/statistics_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="165">
           <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1030,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web_application/public/home_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="460">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding />
         </state>
       </provider>
