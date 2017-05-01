@@ -77,7 +77,7 @@ def main():
     conn = MongoClient(MongoDB_Host,int(MongoDB_Port))
     ResultPOA = conn.ResultPOA
     RawPOA = conn.RawPOA
-    LocalResultPOA = MongoClient('192.168.1.3',27017).ResultPOA
+    #LocalResultPOA = MongoClient('192.168.1.3',27017).ResultPOA
 
     for uni in UniversityList:
 
@@ -98,7 +98,7 @@ def main():
             InsertList.append(newsDoc)
 
         ResultPOA["news"].insert(InsertList)
-        LocalResultPOA["news"].insert(InsertList)
+        #LocalResultPOA["news"].insert(InsertList)
         print uni["zh_name"] + "的新闻信息已保存完毕"
 
 

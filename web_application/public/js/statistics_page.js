@@ -43,7 +43,7 @@ var tableListApp = new Vue({
 	}
 })
 
-var newsProportionChart = echarts.init(document.getElementById('newsProportion'),'shine');
+
 
 var option = {
 
@@ -131,6 +131,7 @@ function getStudyCount(){
 	})
 }
 
+var newsProportionChart = echarts.init(document.getElementById('newsProportion'),'shine');
 axios.all([getSocialCount(),getActivityCount(),getEntranceCount(),getStudyCount()])
 	.then(axios.spread(function(socialRes,activityRes,entranceRes,studyRes){
 
