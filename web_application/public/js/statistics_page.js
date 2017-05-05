@@ -23,6 +23,7 @@ var paginationApp= new Vue({
 	}
 });
 
+
 var tableListApp = new Vue({
 	el:"#tableList",
 	data:{

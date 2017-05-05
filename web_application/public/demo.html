@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta charset="utf-8">
+		<title>demo</title>
+		<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-default/index.css">
+	</head>
+	<body>
+
+
+
+	<div id="app">
+		<el-form :inline="true" :model="formInline" class="demo-form-inline">
+			<el-form-item label="审批人">
+				<el-input v-model="formInline.user" placeholder="审批人"></el-input>
+			</el-form-item>
+			<el-form-item label="活动区域">
+				<el-select v-model="formInline.region" placeholder="活动区域">
+					<el-option label="shanghai" value="shanghai"></el-option>
+					<el-option label="beijing" value="beijing"></el-option>
+				</el-select>
+			</el-form-item><el-form-item>
+			<el-button type="primary" @click="onSubmit">查询</el-button>
+		</el-form-item>
+		</el-form>
+	</div>
+
+	</body>
+
+	<script type="text/javascript" src="https://unpkg.com/vue@2.3.2/dist/vue.js"></script>
+	<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+	<script type="text/javascript" >
+		var Main = {
+			data() {
+				return {
+					formInline: {
+						user: '',
+						region: ''
+					}
+				}
+			},
+			methods: {
+				onSubmit() {
+					console.log(this.formInline.region);
+				}
+			}
+		}
+		var Ctor = Vue.extend(Main)
+		new Ctor().$mount('#app')
+	</script>
+</html>

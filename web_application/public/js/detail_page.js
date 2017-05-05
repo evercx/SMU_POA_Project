@@ -109,7 +109,7 @@ var sideListApp = new Vue({
 		selectUniversity:function(universityName){
 			changeActiveStatusByUniversityName(this.universityList,universityName,true);
 			this.currentUniversity = universityName;
-			universityTitleApp.title = universityName;
+			universityTitleApp.title = this.currentUniversity;
 			universityTitleApp.updateSubtitle(universityTitleApp.title)
 		}
 	},
@@ -159,12 +159,93 @@ var universityTitleApp =new Vue({
 	},
 })
 
-// function findCurrentUniversity(){
-// 	for (i in sideListApp.universityList){
-// 		if (sideListApp.universityList[i].status) return sideListApp.universityList[i].name;
-// 		return '上海海事大学';
-// 	}
-// }
+
+var formApp = new Vue({
+	el:"#formApp",
+	data:{
+		formInline:{
+			classification:'~',
+			sentiment:'~'
+		}
+	},
+	methods: {
+		onSubmit() {
+			console.log('submit!');
+			console.log(this.formInline);
+			paginationApp.search();
+
+		}
+	}
+})
+
+var paginationApp= new Vue({
+	el: '#paginationApp',
+	data : {
+		totalNumbers:0,
+		pageSize:5,
+		currentPage:1
+	},
+	methods:{
+		handleCurrentChange(val) {
+			var requestConfig = {
+				method: 'get',
+				url: '/api/v1/news',
+				params:{
+					limit:paginationApp.pageSize,
+					skip:(val-1) * this.pageSize,
+					sort:"-date",
+					query:{
+						"classification":formApp.formInline.classification,
+						"sentiment":formApp.formInline.sentiment,
+						"Uname":universityTitleApp.title
+					}
+				}
+			}
+			axios(requestConfig).then(function (res) {
+				newsListApp.tableData = res.data;
+			})
+		},
+		setTotalNumber(){
+			var requestConfig = {
+				method: 'get',
+				url: '/api/v1/news/count',
+				params:{
+					query:{
+						"classification":formApp.formInline.classification,
+						"sentiment":formApp.formInline.sentiment,
+						"Uname":universityTitleApp.title
+					}
+				}
+			}
+			axios(requestConfig).then(function (res) {
+				paginationApp.totalNumbers = res.data.count;
+			})
+		},
+		search(){
+			paginationApp.currentPage = 1;
+			this.setTotalNumber();
+			this.handleCurrentChange(1);
+		}
+	}
+});
+
+
+var newsListApp = new Vue({
+	el:"#newsListApp",
+	data:{
+		tableData:[]
+	},
+	methods: {
+		handleEdit(index, row) {
+			window.location.href = row.url;
+		}
+	}
+})
+
+
+
+
+
 
 function changeActiveStatusByUniversityName(list,name,status){
 
