@@ -16,10 +16,17 @@ router.get('/detail', function(req, res, next) {
   res.sendFile(path.resolve('./','public/detail_page.html'));
 });
 
+/* GET analyze page. */
+router.get('/analyze', function(req, res, next) {
+  res.sendFile(path.resolve('./','public/analyze_page.html'));
+});
+
 /* GET news page. */
 router.get('/news', function(req, res, next) {
   res.sendFile(path.resolve('./','public/news.html'));
 });
+
+
 
 /* GET 404 page. */
 router.get('/404', function(req, res, next) {
