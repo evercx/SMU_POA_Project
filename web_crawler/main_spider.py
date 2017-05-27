@@ -5,7 +5,6 @@ import sys
 import re
 from readability import Document
 import html2text
-import time
 import mod_config
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
@@ -148,8 +147,8 @@ def save_DataToDB(documents,DBName):
 def main():
 
     # 获得配置文件参数
-    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
-    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    MongoDB_Host = mod_config.getConfig("database","db_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_Port")
     UniversityList = mod_config.get_University_list()
 
     #建立数据库连接

@@ -4,7 +4,7 @@
 
 var fs = require('fs');
 var exec = require('child_process').exec;
-var filePath = './python/process_onlineAnalyze.py';
+var filePath = './python/process.py';
 var command = 'python ' + filePath;
 
 exports.doTextAnalyze = function(req,res){

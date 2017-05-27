@@ -9,8 +9,8 @@ import codecs
 def create_TrainData():
 
     # 获得配置文件参数
-    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
-    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    MongoDB_Host = mod_config.getConfig("database","db_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_Port")
     UniversityList = mod_config.get_University_list()
 
     #建立数据库连接
@@ -51,8 +51,8 @@ def create_TrainData():
 def copy_Data_from_Raw_to_Result():
 
     # 获得配置文件参数
-    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
-    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    MongoDB_Host = mod_config.getConfig("database","db_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_Port")
     UniversityList = mod_config.get_University_list()
 
     #建立数据库连接
@@ -78,8 +78,8 @@ def copy_Data_from_Raw_to_Result():
 
 def insert_university_list():
     # 获得配置文件参数
-    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
-    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    MongoDB_Host = mod_config.getConfig("database","db_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_Port")
     UniversityList = mod_config.get_University_list()
 
     #建立数据库连接
@@ -94,8 +94,8 @@ def insert_university_list():
 
 def create_NewsNumbersInfo():
     # 获得配置文件参数
-    MongoDB_Host = mod_config.getConfig("database","db_AliYunSever_Host")
-    MongoDB_Port = mod_config.getConfig("database","db_AliYunSever_Port")
+    MongoDB_Host = mod_config.getConfig("database","db_Host")
+    MongoDB_Port = mod_config.getConfig("database","db_Port")
     UniversityList = mod_config.get_University_list()
 
     #建立数据库连接
