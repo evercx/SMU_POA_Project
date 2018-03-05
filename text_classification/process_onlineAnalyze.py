@@ -2,7 +2,7 @@
 import mod_config
 
 import jieba
-from pymongo import MongoClient
+# from pymongo import MongoClient
 import  cPickle as pickle
 from sklearn.externals import joblib
 

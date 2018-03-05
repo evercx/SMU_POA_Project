@@ -40,8 +40,9 @@ exports.doTextAnalyze = function(req,res){
                     }
                     if(stdout)
                     {
-                        console.log(stdout);
+
                         var obj = eval('(' + stdout+ ')');
+
                         var classificationDict = {
                             "study":"学习学术",
                             "activity":"社团活动",

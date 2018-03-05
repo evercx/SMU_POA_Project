@@ -3,7 +3,7 @@
 import os
 import sys
 import jieba
-from pymongo import MongoClient
+# from pymongo import MongoClient
 import  cPickle as pickle
 import numpy as np
 from sklearn.externals import joblib
@@ -92,7 +92,6 @@ def main():
     # print text_seg.encode('utf-8')
 
     # print Dict
-    print Dict["sentiment"]
 
     tfidf_sentiment = get_tfidf(text_seg, Dict["sentiment"])
     tfidf_classification = get_tfidf(text_seg, Dict["classification"])
