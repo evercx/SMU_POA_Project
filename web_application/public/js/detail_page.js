@@ -498,6 +498,8 @@ var chartsApp = new Vue({
 				}
 			}).then(function(res){
 
+				console.log(res.data)
+
 				sentimentProportionChart.setOption({
 					series : [
 						{

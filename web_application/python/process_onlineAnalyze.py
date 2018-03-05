@@ -1,10 +1,11 @@
 # -*- coding:utf-8 -*-
-import mod_config
+# import mod_config
 import os
 import sys
 import jieba
 from pymongo import MongoClient
 import  cPickle as pickle
+import numpy as np
 from sklearn.externals import joblib
 
 def readFile(path):
@@ -51,7 +52,11 @@ def get_predictedResult(tfidf,typeDict):
     clf = joblib.load(typeDict["save_model_Path"])
     result = clf.predict(tfidf)
 
-    predictedResult = typeDict["categories"][result]
+    # 从numpy数组格式的结果提取出索引数值
+    result_index = result[0]
+
+    predictedResult = typeDict["categories"][result_index]
+
 
     return predictedResult
 
@@ -86,6 +91,8 @@ def main():
     #print sys.argv[1]
     # print text_seg.encode('utf-8')
 
+    # print Dict
+    print Dict["sentiment"]
 
     tfidf_sentiment = get_tfidf(text_seg, Dict["sentiment"])
     tfidf_classification = get_tfidf(text_seg, Dict["classification"])

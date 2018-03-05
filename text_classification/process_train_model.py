@@ -47,6 +47,8 @@ def extract_tfidf(train_data,typeDict):
     tfidf_transformer = TfidfTransformer()
     X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 
+    print X_train_tfidf.shape
+
     writeBunchObj(typeDict["count_vect_Path"], count_vect)
     writeBunchObj(typeDict["tfidf_Path"], tfidf_transformer)
 
@@ -73,7 +75,7 @@ def main():
     clf = train_sentiment_model(X_train_tfidf,train_data)
 
     joblib.dump(clf,typeDict["save_model_Path"]);
-    print "模型保存成功"
+    #print "模型保存成功"
 
 
 main()

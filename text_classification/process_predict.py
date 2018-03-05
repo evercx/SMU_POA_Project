@@ -59,7 +59,10 @@ def get_predictedResult(tfidf,typeDict):
     clf = joblib.load(typeDict["save_model_Path"])
     result = clf.predict(tfidf)
 
-    predictedResult = typeDict["categories"][result]
+    # 从numpy数组格式的结果提取出索引数值
+    result_index = result[0]
+
+    predictedResult = typeDict["categories"][result_index]
 
     return predictedResult
 
